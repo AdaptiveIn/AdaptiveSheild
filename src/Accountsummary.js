@@ -18,18 +18,21 @@ export default function Accountsummary() {
     background: "rgba(232, 236, 241, 0.3)",
   };
   const headings2 = {
+    fontSize: 40,
     marginTop: 50,
     textAlign: "center",
     color: "#51adcf",
     fontFamily: "Helvetica",
   };
   const content = {
-    marginTop: 40,
-    paddingLeft: 150,
-    fontSize: 20,
+    width: 300,
+    paddingTop: 60,
+    margin: 'auto',
+    fontSize: 30,
     color: "#a5ecd7",
     fontWeight: "Bold",
     fontFamily: "Helvetica",
+    textAlign: "left"
   };
   const shieldButton = {
     paddingTop: 70,
@@ -38,6 +41,7 @@ export default function Accountsummary() {
     margin: "auto",
   };
   const Datast = {
+    fontSize: 20,
     color: "#0278ae",
     paddingLeft: 20,
     fontFamily: "Helvetica",
@@ -49,16 +53,16 @@ export default function Accountsummary() {
         <h1>ACCOUNT SUMMARY</h1>
       </div>
       <div style={headings2}>
-        <h2>Your Balance Details:</h2>
+        <text>Your Balance Details:</text>
       </div>
       <div style={content}>
         <text>Account:</text> <text style={Datast}>Adaptive LLP</text>
         <br></br>
-        <br></br>
+       
         <text>Balance:</text>
         <text style={Datast}>$100,200</text>
         <br></br>
-        <br></br>
+      
         <text>Gain/Loss:</text>
         <text style={Datast}>$16000</text>
         <br></br>
