@@ -1,7 +1,7 @@
 import React from 'react';
-import { makeStyles } from '@bit/mui-org.material-ui.styles';
-import Typography from '@bit/mui-org.material-ui.typography';
-import Slider from '@bit/mui-org.material-ui.slider';
+import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import Slider from '@material-ui/core/Slider';
 
 const useStyles = makeStyles({
   root: {
