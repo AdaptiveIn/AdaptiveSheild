@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import VerticalSlider from "./Slider";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
+import Quote from "./Quote";
 
 export default function ShieldSetup() {
   const history = useHistory();
   const handleClickConfirm = () => history.push("/ConfirmationScreen");
-  const handleClickBack= () => history.push("/");
+  const handleClickBack = () => history.push("/");
 
   const headings = {
     marginTop: -50,
@@ -100,20 +101,32 @@ export default function ShieldSetup() {
         </div>
       </div>
       <div style={confirmButton}>
-        <Button variant="contained" color="primary" fullWidth="True" onClick = {handleClickConfirm}>
+        <Button
+          variant="contained"
+          color="primary"
+          fullWidth="True"
+          onClick={handleClickConfirm}
+        >
           CONFIRM
         </Button>
       </div>
       <div style={backButton}>
-        <Button variant="contained" color="" fullWidth="True" onClick = {handleClickBack}>
+        <Button
+          variant="contained"
+          color=""
+          fullWidth="True"
+          onClick={handleClickBack}
+        >
           GO BACK
         </Button>
       </div>
       <div style={cost}>
-        <text>COST: $450</text>
+        <text>
+          COST: <Quote/>
+        </text>
       </div>
       <div style={DIYcost}>
-        <text>Do It Yourself Cost: $800</text>
+        <text>Do It Yourself Cost: $8000</text>
       </div>
     </React.Fragment>
   );
