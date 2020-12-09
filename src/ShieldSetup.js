@@ -122,11 +122,11 @@ export default function ShieldSetup() {
       </div>
       <div style={cost}>
         <text>
-          COST: <Quote/>
+          <Quote/>
         </text>
       </div>
       <div style={DIYcost}>
-        <text>Do It Yourself Cost: $8000</text>
+        <text>Do It Yourself Cost: $1426</text>
       </div>
     </React.Fragment>
   );

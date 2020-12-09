@@ -8,26 +8,21 @@ export default class Quote extends Component {
     };
   }
   componentDidMount() {
-    var myHeaders = new Headers();
-    myHeaders.append("Content-Type", "text/plain");
-
-    var raw =
-      '{\n    "stock_ticker": "TSLA",\n    "stock_date": "2019-11-28",\n    "stock_close": 100.43\n}\n';
+    var raw = "";
 
     var requestOptions = {
       method: "POST",
-      headers: myHeaders,
       body: raw,
       redirect: "follow",
     };
 
     fetch(
-      "https://cors-anywhere.herokuapp.com/https://7yseqgoxea.execute-api.us-east-1.amazonaws.com/dev/test2",
+      "https://cors-anywhere.herokuapp.com/https://7yseqgoxea.execute-api.us-east-1.amazonaws.com/dev/quote-engine",
       requestOptions
     )
       .then((response) => response.text())
       .then((result) => {
-        this.setState({result1: result})
+        this.setState({ result1: result});
         console.log("Success:", result);
       })
       .catch((error) => console.log("error", error));
@@ -35,7 +30,7 @@ export default class Quote extends Component {
   render() {
     return (
       <div>
-        <text>${this.state.result1}</text>
+        <text>COST: ${this.state.result1.slice(17,24)}</text>
       </div>
     );
   }
