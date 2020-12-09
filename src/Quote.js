@@ -17,7 +17,7 @@ export default class Quote extends Component {
     };
 
     fetch(
-      "https://cors-anywhere.herokuapp.com/https://7yseqgoxea.execute-api.us-east-1.amazonaws.com/dev/quote-engine",
+      "https://7yseqgoxea.execute-api.us-east-1.amazonaws.com/dev/quote-engine",
       requestOptions
     )
       .then((response) => response.text())
