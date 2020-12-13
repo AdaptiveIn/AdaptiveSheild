@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import VerticalSlider from "./Slider";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";

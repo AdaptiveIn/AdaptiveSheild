@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import AcccessibleTable from "./table";
 import StockChart from "./graphs";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 
-
-
 export default function Accountsummary() {
   const history = useHistory();
   const handleClick = () => history.push("/ShieldSetup");
+  const handleClick2 = () => history.push("/AddStocks");
+  const handleClick3 = () => history.push("/DeleteScreen")
   const headings = {
     marginTop: -30,
     fontSize: 30,
@@ -27,12 +27,12 @@ export default function Accountsummary() {
   const content = {
     width: 300,
     paddingTop: 60,
-    margin: 'auto',
+    margin: "auto",
     fontSize: 30,
     color: "#a5ecd7",
     fontWeight: "Bold",
     fontFamily: "Helvetica",
-    textAlign: "left"
+    textAlign: "left",
   };
   const shieldButton = {
     paddingTop: 70,
@@ -47,6 +47,14 @@ export default function Accountsummary() {
     fontFamily: "Helvetica",
   };
 
+  const addStockButton = {
+    paddingTop: 20,
+    textAlign: "left",
+    position: "relative",
+    float: "right",
+    paddingBottom: 10,
+  };
+
   return (
     <React.Fragment>
       <div style={headings}>
@@ -58,11 +66,9 @@ export default function Accountsummary() {
       <div style={content}>
         <text>Account:</text> <text style={Datast}>Adaptive LLP</text>
         <br></br>
-       
         <text>Balance:</text>
         <text style={Datast}>$100,200</text>
         <br></br>
-      
         <text>Gain/Loss:</text>
         <text style={Datast}>$16000</text>
         <br></br>
@@ -72,7 +78,7 @@ export default function Accountsummary() {
         <Button
           variant="contained"
           color="primary"
-          fullWidth="True"
+          fullWidth={true}
           onClick={handleClick}
         >
           SHIELD ON
@@ -81,6 +87,17 @@ export default function Accountsummary() {
       <div>
         <StockChart />
         <AcccessibleTable />
+      </div>
+      <div style={addStockButton}>
+        <Button variant="outlined" color="primary">
+          UPDATE STOCKS
+        </Button>
+        <Button variant="outlined" color="secondary" onClick={handleClick3}>
+          DELETE STOCKS
+        </Button>
+        <Button variant="outlined" color="primary" onClick={handleClick2}>
+          ADD STOCKS +
+        </Button>
       </div>
     </React.Fragment>
   );

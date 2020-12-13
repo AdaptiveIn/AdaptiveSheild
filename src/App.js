@@ -3,11 +3,15 @@ import Accountsummary from './Accountsummary'
 import ShieldSetup from './ShieldSetup'
 import ConfirmationScreen from './ConfirmationScreen'
 import Success from './Success'
+import AddStocks from './AddStocks'
+import DeleteScreen from './DeletsScreen'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { withAuthenticator } from '@aws-amplify/ui-react'
 
 
+
 function App() {
+
   return (
     <Router>
       <Switch>
@@ -15,6 +19,8 @@ function App() {
       <Route exact path = "/ShieldSetup" component = {ShieldSetup}/>
       <Route exact path = "/ConfirmationScreen" component = {ConfirmationScreen}/>
       <Route exact path = "/Success" component = {Success}/>
+      <Route exact path = "/AddStocks" component = {AddStocks}/>
+      <Route exact path = "/DeleteScreen" component = {DeleteScreen}/>
       </Switch>
     </Router>
   );

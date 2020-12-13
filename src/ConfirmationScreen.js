@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import StockChart from "./graphs";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
@@ -63,12 +63,12 @@ export default function ConfirmationScreen() {
         </text>
       </div>
       <div style={confirmButton}>
-        <Button variant="contained" color="primary" fullWidth="True" onClick = {handleClickConfirm}>
+        <Button variant="contained" color="primary" fullWidth={true} onClick = {handleClickConfirm}>
           AGREE
         </Button>
       </div>
       <div style={backButton}>
-        <Button variant="contained" color="" fullWidth="True" onClick = {handleClickBack}>
+        <Button variant="contained" color="" fullWidth={true} onClick = {handleClickBack}>
           GO BACK
         </Button>
       </div>
