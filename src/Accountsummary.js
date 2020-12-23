@@ -21,7 +21,7 @@ export default function Accountsummary() {
     fontSize: 40,
     marginTop: 50,
     textAlign: "center",
-    color: "#51adcf",
+    color: "#000000",
     fontFamily: "Helvetica",
   };
   const content = {
@@ -29,10 +29,10 @@ export default function Accountsummary() {
     paddingTop: 60,
     margin: "auto",
     fontSize: 30,
-    color: "#a5ecd7",
+    color: "#000000",
     fontWeight: "Bold",
     fontFamily: "Helvetica",
-    textAlign: "left",
+    textAlign: "center",
   };
   const shieldButton = {
     paddingTop: 70,

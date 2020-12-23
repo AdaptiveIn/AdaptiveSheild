@@ -45,18 +45,22 @@ async function getData() {
     lyst.push([
       stockList[i]["Symbol"],
       stockList[i]["Quantity"],
-      stockList[i]["Price"],
+      stockList[i]["todays_close"],
+      stockList[i]["percentage_difference"],
+      stockList[i]["yesterdays_close"]
+
     ]);
   }
   for (i = 0; i < lyst.length; i++) {
     rows.push(
       createData(
         lyst[i][0],
+        lyst[i][1],
         lyst[i][2].toFixed(2),
-        (Math.random() * 2.5).toFixed(2) + 1,
+        lyst[i][4].toFixed(2),
+        lyst[i][3].toFixed(2),
         (lyst[i][1] * lyst[i][2]).toFixed(2),
-        lyst[i][2] - 10,
-        lyst[i][1]
+        
       )
     );
   }
@@ -65,8 +69,8 @@ async function getData() {
 
 
 
-function createData(Symbol, Today, Change, Value, Last, Quantity) {
-  return { Symbol, Today, Change, Value, Last, Quantity };
+function createData(Symbol, Quantity, Last, Previous, Change, Value) {
+  return { Symbol, Quantity, Last, Previous, Change, Value };
 }
 
 export default function AcccessibleTable() {
@@ -79,25 +83,25 @@ export default function AcccessibleTable() {
         <caption>Stock Prices</caption>
         <TableHead>
           <TableRow>
-            <TableCell align="right">Symbol</TableCell>
-            <TableCell align="right">Today</TableCell>
-            <TableCell align="right">Change</TableCell>
-            <TableCell align="right">Value</TableCell>
-            <TableCell align="right">Last</TableCell>
-            <TableCell align="right">Quantity</TableCell>
+            <TableCell align="center">Symbol</TableCell>
+            <TableCell align="center">Quantity</TableCell>
+            <TableCell align="center">Last</TableCell>
+            <TableCell align="center">Previous Day</TableCell>
+            <TableCell align="center">Change%</TableCell>
+            <TableCell align="center">Market Value</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
+              <TableCell align ="center" component="th" scope="row">
                 {row.Symbol}
               </TableCell>
-              <TableCell align="right">{row.Today}</TableCell>
-              <TableCell align="right">{row.Change}</TableCell>
-              <TableCell align="right">{row.Value}</TableCell>
-              <TableCell align="right">{row.Last}</TableCell>
-              <TableCell align="right">{row.Quantity}</TableCell>
+              <TableCell align="center">{row.Quantity}</TableCell>
+              <TableCell align="center">{row.Last}</TableCell>
+              <TableCell align="center">{row.Previous}</TableCell>
+              <TableCell align="center">{row.Change}</TableCell>
+              <TableCell align="center">{row.Value}</TableCell>
             </TableRow>
           ))}
         </TableBody>

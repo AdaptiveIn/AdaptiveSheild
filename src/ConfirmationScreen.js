@@ -2,6 +2,7 @@ import React from "react";
 import StockChart from "./graphs";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
+import AcccessibleTable from "./table";
 
 export default function ConfirmationScreen() {
   const history = useHistory();
@@ -9,7 +10,7 @@ export default function ConfirmationScreen() {
   const handleClickBack = () => history.push("/ShieldSetup");
   const headings = {
     marginTop: -5,
-    fontSize: 70,
+    fontSize: 40,
     textAlign: "center",
     color: "#16697a",
     fontFamily: "Helvetica",
@@ -45,30 +46,38 @@ export default function ConfirmationScreen() {
   return (
     <React.Fragment>
       <div style={headings}>
-        <text>SUMMARY</text>
+        <text>SHIELD CONFIRMATION SCREEN</text>
       </div>
       <div>
-        <StockChart />
+        <AcccessibleTable />
       </div>
       <div style={TC}>
         <text>TERMS & CONDITIONS</text>
       </div>
       <div style={TCcontent}>
         <text>
-          These terms and conditions outline the rules and regulations for the
-          use of Company Name's Website, located at Website.com. By accessing
-          this website we assume you accept these terms and conditions. Do not
-          continue to use Website Name if you do not agree to take all of the
-          terms and conditions stated on this page.
+          You are agreeing to purchase protection on the portfolio above. To a
+          level of noless than aforementioned percentage and for a loss of no more than aforementioned percent,
+          for the said period and said total cost.
         </text>
       </div>
       <div style={confirmButton}>
-        <Button variant="contained" color="primary" fullWidth={true} onClick = {handleClickConfirm}>
+        <Button
+          variant="contained"
+          color="primary"
+          fullWidth={true}
+          onClick={handleClickConfirm}
+        >
           AGREE
         </Button>
       </div>
       <div style={backButton}>
-        <Button variant="contained" color="" fullWidth={true} onClick = {handleClickBack}>
+        <Button
+          variant="contained"
+          color=""
+          fullWidth={true}
+          onClick={handleClickBack}
+        >
           GO BACK
         </Button>
       </div>

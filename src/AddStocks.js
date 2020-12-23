@@ -30,9 +30,6 @@ export default function AddStocks() {
     dict.push(
       ticker,
       quant,
-      Math.floor(Math.random() * 500 + 100),
-      Math.random() * 1.5 + 1,
-      Math.random() * 0.6 + 0
     );
     UpdateStockList(dict);
     console.log(dict);

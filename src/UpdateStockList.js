@@ -6,9 +6,6 @@ export function UpdateStockList(StockData) {
   var raw = JSON.stringify({
     stock_ticker: StockData[0],
     stock_quantity: StockData[1],
-    stock_price: StockData[2],
-    stock_beta: StockData[3],
-    stock_r2: StockData[4],
   });
 
   var requestOptions = {
