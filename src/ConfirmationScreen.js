@@ -1,5 +1,4 @@
 import React from "react";
-import StockChart from "./graphs";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import AcccessibleTable from "./table";

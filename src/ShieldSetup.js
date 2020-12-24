@@ -2,11 +2,15 @@ import React from "react";
 // import VerticalSlider from "./Slider";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
-import Quote from "./Quote";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Slider from "@material-ui/core/Slider";
-import data from './quotes.json'
+import data from "./quotes.json";
+
+// var requestOptions = {
+//   method: "POST",
+//   redirect: "follow",
+// };
 
 export default function ShieldSetup() {
   const history = useHistory();
@@ -15,44 +19,58 @@ export default function ShieldSetup() {
   const [selected, setName] = React.useState("Daily");
   const [quote, setPrice] = React.useState(0);
   const [diy, setDiy] = React.useState(0);
+
   const handleChange = (event) => {
     setName(event.target.value);
   };
   const handleChange2 = (value) => {
     setPrice(value);
-    setDiy((value*1.2).toFixed(2))
+    setDiy((value * 1.2).toFixed(2));
   };
   const useStyles = makeStyles({
     root: {
-      height: 192,
+      height: 220,
       width: 50,
     },
   });
   var val = 0;
-  function fetch_price(period,percent){
-    if(period==='Daily'){
-      var tp = data['day']
+  var marks2 = [];
+
+  function valuetext(value) {
+    val = (100 - value).toFixed(2);
+    console.log("Value is:", val);
+    fetch_price(selected, val);
+    // return `${(100-value).toFixed(2)}`;
+  }
+  function fetch_price(period = "Daily", percent = "3.00") {
+    if (period === "Daily") {
+      var tp = data["day"];
+    } else if (period === "Day") {
+      tp = data["day"];
+    } else if (period === "Week") {
+      tp = data["week"];
+    } else if (period === "Month") {
+      tp = data["month"];
+    } else {
+      tp = data["year"];
     }
-    else if(period==='Day'){
-      tp = data['day']
+    var tp2 = Object.keys(tp);
+    marks2.length = 0;
+    for (var i = 0; i < tp2.length; i++) {
+      marks2.push({
+        value: 100 - parseFloat(tp2[i]).toFixed(2),
+      });
     }
-    else if(period==='Week'){
-      tp = data['week']
-    }
-    else if(period==='Month'){
-      tp = data['month']
+    console.log(marks2);
+    console.log(tp);
+    console.log("tp:", tp[percent]);
+    if (percent === "0.00"){
+      handleChange2("NA")
     }
     else{
-      tp = data['year']
+      handleChange2(tp[percent]["shield_price"].toFixed(2));
     }
-    console.log(tp['shield_price'][percent])
-    handleChange2(tp['shield_price'][percent])
-  }
-  function valuetext(value) {
-    val = 100 - value;
-    console.log("Value is:", val,selected);
-    fetch_price(selected,val)
-    // return `${value}`;
+    
   }
 
   const classes = useStyles();
@@ -62,8 +80,8 @@ export default function ShieldSetup() {
   };
 
   const headings = {
-    marginTop: -50,
-    fontSize: 40,
+    marginTop: -40,
+    fontSize: 30,
     textAlign: "center",
     color: "#16697a",
     fontFamily: "Helvetica",
@@ -74,17 +92,19 @@ export default function ShieldSetup() {
     height: 280,
     textAlign: "left",
     marginLeft: 100,
+    marginRight: 10,
     color: "#000000",
-    fontSize: 20,
+    fontSize: 25,
     fontFamily: "Helvetica",
   };
   const rightdiv = {
     marginTop: -280,
     height: 280,
     textAlign: "right",
+    marginRight: 10,
     marginLeft: 100,
     color: "#000000",
-    fontSize: 20,
+    fontSize: 25,
     marginRight: 100,
     position: "relative",
     float: "right",
@@ -93,7 +113,7 @@ export default function ShieldSetup() {
   const radios = {
     marginTop: 30,
     color: "#000000",
-    fontSize: 18,
+    fontSize: 22,
     marginLeft: 20,
   };
 
@@ -114,7 +134,7 @@ export default function ShieldSetup() {
     width: 300,
   };
   const cost = {
-    paddingTop: 40,
+    paddingTop: 90,
     textAlign: "center",
     fontFamily: "Helvetica",
     fontSize: 40,
@@ -129,10 +149,15 @@ export default function ShieldSetup() {
     fontWeight: "bold",
     color: "#16697a",
   };
+  const loader = {
+    position: "relative",
+    margin: "auto",
+    marginTop: 350,
+    width: 0,
+  };
   return (
-  
-    (
-      <React.Fragment>
+    <div>
+      <div>
         <div style={headings}>
           <h1>Shield Setup</h1>
         </div>
@@ -182,12 +207,12 @@ export default function ShieldSetup() {
             <div className={classes.root} style={slider_style}>
               <Slider
                 orientation="vertical"
-                getAriaValueText={valuetext}
-                defaultValue={100}
-                aria-labelledby="vertical-slider"
-                max={100}
                 min={80}
-                track="normal"
+                getAriaValueText={valuetext}
+                defaultValue={97}
+                aria-labelledby="vertical-slider"
+                step={null}
+                marks={marks2}
                 valueLabelDisplay="on"
                 // onChange={valuetext}
                 // onChangeCommitted={valuetext}
@@ -196,9 +221,7 @@ export default function ShieldSetup() {
           </div>
         </div>
         <div style={cost}>
-          <text>
-            COST: ${quote}
-          </text>
+          <text>COST: ${quote}</text>
         </div>
         <div style={DIYcost}>
           <text>Do It Yourself Cost: ${diy}</text>
@@ -223,7 +246,7 @@ export default function ShieldSetup() {
             GO BACK
           </Button>
         </div>
-      </React.Fragment>
-    )
+      </div>
+    </div>
   );
 }

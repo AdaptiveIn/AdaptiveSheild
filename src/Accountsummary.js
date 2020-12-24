@@ -9,6 +9,7 @@ export default function Accountsummary() {
   const handleClick = () => history.push("/ShieldSetup");
   const handleClick2 = () => history.push("/AddStocks");
   const handleClick3 = () => history.push("/DeleteScreen")
+  const handleClick4 = () => history.push("/UpdateScreen")
   const headings = {
     marginTop: -30,
     fontSize: 30,
@@ -89,7 +90,7 @@ export default function Accountsummary() {
         <AcccessibleTable />
       </div>
       <div style={addStockButton}>
-        <Button variant="outlined" color="primary">
+        <Button variant="outlined" color="primary" onClick={handleClick4}>
           UPDATE STOCKS
         </Button>
         <Button variant="outlined" color="secondary" onClick={handleClick3}>
