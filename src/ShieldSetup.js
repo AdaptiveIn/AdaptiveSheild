@@ -16,7 +16,7 @@ export default function ShieldSetup() {
   const history = useHistory();
   const handleClickConfirm = () => history.push("/ConfirmationScreen");
   const handleClickBack = () => history.push("/");
-  const [selected, setName] = React.useState("Daily");
+  const [selected, setName] = React.useState("Day");
   const [quote, setPrice] = React.useState(0);
   const [diy, setDiy] = React.useState(0);
 
@@ -168,6 +168,7 @@ export default function ShieldSetup() {
               type="radio"
               value="Day"
               name="time"
+              checked={selected === "Day"}
               onChange={handleChange}
             />{" "}
             Day<br></br>
@@ -177,6 +178,7 @@ export default function ShieldSetup() {
               type="radio"
               value="Week"
               name="time"
+              checked={selected === "Week"}
               onChange={handleChange}
             />{" "}
             Week<br></br>
@@ -186,6 +188,7 @@ export default function ShieldSetup() {
               type="radio"
               value="Month"
               name="time"
+              checked={selected === "Month"}
               onChange={handleChange}
             />{" "}
             Month<br></br>
@@ -195,6 +198,7 @@ export default function ShieldSetup() {
               type="radio"
               value="Year"
               name="time"
+              checked={selected === "Year"}
               onChange={handleChange}
             />{" "}
             Year<br></br>

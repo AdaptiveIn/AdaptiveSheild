@@ -8,7 +8,6 @@ import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 
 
-getData()
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -21,62 +20,66 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-var rows = [];
-var lyst = [];
- 
-async function getData() {
-  var requestOptions = {
-    method: "POST",
-    redirect: "follow",
-  };
-
-  const response = await fetch(
-    "https://7yseqgoxea.execute-api.us-east-1.amazonaws.com/dev/fetch-customer-portfolio",
-    requestOptions
-  );
-  if (!response.ok) {
-    const message = `An error has occured: ${response.status}`;
-    throw new Error(message);
-  }
-
-  const stockList_raw = await response.json();
-  const stockList = stockList_raw["clientPortfolio"];
-  for (var i = 0; i < stockList.length; i++) {
-    lyst.push([
-      stockList[i]["Symbol"],
-      stockList[i]["Quantity"],
-      stockList[i]["todays_close"],
-      stockList[i]["percentage_difference"],
-      stockList[i]["yesterdays_close"]
-
-    ]);
-  }
-  for (i = 0; i < lyst.length; i++) {
-    rows.push(
-      createData(
-        lyst[i][0],
-        lyst[i][1],
-        lyst[i][2].toFixed(2),
-        lyst[i][4].toFixed(2),
-        lyst[i][3].toFixed(2),
-        (lyst[i][1] * lyst[i][2]).toFixed(2),
-        
-      )
-    );
-  }
-  console.log(lyst);
-}
-
-
-
 function createData(Symbol, Quantity, Last, Previous, Change, Value) {
   return { Symbol, Quantity, Last, Previous, Change, Value };
 }
 
 export default function AcccessibleTable() {
-  const classes = useStyles();
-  console.log("Rows:", rows);
+  getData();
+  var rows2 = [];
+  const [rows,setRows] = React.useState([])
+  const [sum1,setSum] = React.useState(0)
+  var lyst = [];
+  var sum = 0
 
+  async function getData() {
+    var requestOptions = {
+      method: "POST",
+      redirect: "follow",
+    };
+
+    const response = await fetch(
+      "https://7yseqgoxea.execute-api.us-east-1.amazonaws.com/dev/fetch-customer-portfolio",
+      requestOptions
+    );
+    if (!response.ok) {
+      const message = `An error has occured: ${response.status}`;
+      throw new Error(message);
+    }
+
+    const stockList_raw = await response.json();
+    const stockList = stockList_raw["clientPortfolio"];
+    for (var i = 0; i < stockList.length; i++) {
+      lyst.push([
+        stockList[i]["Symbol"],
+        stockList[i]["Quantity"],
+        stockList[i]["todays_close"],
+        stockList[i]["percentage_difference"],
+        stockList[i]["yesterdays_close"],
+      ]);
+      sum = sum +((stockList[i]["Quantity"]*stockList[i]["todays_close"]))
+    }
+    setSum(sum)
+    for (i = 0; i < lyst.length; i++) {
+      rows2.push(
+        createData(
+          lyst[i][0],
+          lyst[i][1],
+          lyst[i][2].toFixed(2),
+          lyst[i][4].toFixed(2),
+          lyst[i][3].toFixed(2),
+          (lyst[i][1] * lyst[i][2]).toFixed(2)
+        )
+      );
+      
+    }
+    setRows(rows2)
+    console.log(lyst);
+  }
+
+  const classes = useStyles();
+  console.log(sum1.toFixed(2))
+  console.log("Rows:", rows);
   return (
     <Paper className={classes.root}>
       <Table className={classes.table} aria-label="caption table">
@@ -94,7 +97,7 @@ export default function AcccessibleTable() {
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.name}>
-              <TableCell align ="center" component="th" scope="row">
+              <TableCell align="center" component="th" scope="row">
                 {row.Symbol}
               </TableCell>
               <TableCell align="center">{row.Quantity}</TableCell>
