@@ -39,22 +39,15 @@ export default function Accountsummary() {
     fontFamily: "Helvetica",
     background: "rgba(232, 236, 241, 0.3)",
   };
-  const headings2 = {
-    fontSize: 40,
-    marginTop: 50,
-    textAlign: "center",
-    color: "#000000",
-    fontFamily: "Helvetica",
-  };
   const content = {
-    width: 300,
-    paddingTop: 60,
+    position: "relative",
+    width: 470,
     margin: "auto",
     fontSize: 30,
     color: "#000000",
     fontWeight: "Bold",
     fontFamily: "Helvetica",
-    textAlign: "center",
+    textAlign: "Left",
   };
   const shieldButton = {
     paddingTop: 70,
@@ -67,6 +60,14 @@ export default function Accountsummary() {
     color: "#0278ae",
     paddingLeft: 20,
     fontFamily: "Helvetica",
+    textAlign: "right",
+  };
+  const Datast2 = {
+    fontSize: 20,
+    color: "#0278ae",
+    paddingLeft: 20,
+    fontFamily: "Helvetica",
+    textAlign: "right",
   };
 
   const addStockButton = {
@@ -76,15 +77,24 @@ export default function Accountsummary() {
     float: "right",
     paddingBottom: 10,
   };
-  getData();
+  const table = {
+    position: "relative",
+    margin: "auto",
+    maxWidth: 700,
+  };
+  const graphSt = {
+    position: "relative",
+    margin: "auto",
+    maxWidth: 900,
+  };
+
   var rows2 = [];
   const [rows, setRows] = React.useState([]);
   const [sum1, setSum] = React.useState(0);
-  const [prevTotal1, setPrevtotal] = React.useState(0)
+  const [prevTotal1, setPrevtotal] = React.useState(0);
   var lyst = [];
   var prevTotal = 0;
   var sum = 0;
-  var prevSum = 0 ;
 
   async function getData() {
     var requestOptions = {
@@ -112,7 +122,8 @@ export default function Accountsummary() {
         stockList[i]["yesterdays_close"],
       ]);
       sum = sum + stockList[i]["Quantity"] * stockList[i]["todays_close"];
-      prevTotal = prevTotal + (stockList[i]["Quantity"] * stockList[i]["yesterdays_close"])
+      prevTotal =
+        prevTotal + stockList[i]["Quantity"] * stockList[i]["yesterdays_close"];
     }
     setSum(sum);
     setPrevtotal(prevTotal);
@@ -136,25 +147,51 @@ export default function Accountsummary() {
   const classes = useStyles();
   console.log(sum1.toFixed(2));
   console.log("Rows:", rows);
-
+  getData();
+  if ((sum1 - prevTotal1).toFixed(2) < 0) {
+    Datast2["color"] = "#EA421F";
+  }
   return (
     <React.Fragment>
       <div style={headings}>
         <h1>ACCOUNT SUMMARY</h1>
       </div>
-      <div style={headings2}>
-        <text>Your Balance Details:</text>
-      </div>
       <div style={content}>
-        <text>Account:</text> <text style={Datast}>Adaptive LLP</text>
-        <br></br>
-        <text>Balance:</text>
-        <text style={Datast}>${sum1.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</text>
-        <br></br>
-        <text>Gain/Loss:</text>
-        <text style={Datast}>${(sum1-prevTotal1).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</text>
-        <br></br>
-        <br></br>
+        <table position="relative" margin="auto" width="500" border="0">
+          <caption align="left">Your Balance Details:</caption>
+          <br></br>
+          <tr>
+            <td align="Right">Advisor:</td>
+            <td align="left">
+              <text style={Datast}>AdvisorName Capital</text>
+            </td>
+          </tr>
+          <tr>
+            <td align="Right">Account:</td>
+            <td align="left">
+              <text style={Datast}>Adaptive LLP</text>
+            </td>
+          </tr>
+          <tr>
+            <td align="Right">Balance:</td>
+            <td align="left">
+              <text style={Datast}>
+                ${sum1.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+              </text>
+            </td>
+          </tr>
+          <tr>
+            <td align="Right">Gain/Loss:</td>
+            <td align="left">
+              <text style={Datast2}>
+                $
+                {(sum1 - prevTotal1)
+                  .toFixed(2)
+                  .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+              </text>
+            </td>
+          </tr>
+        </table>
       </div>
       <div style={shieldButton}>
         <Button
@@ -167,49 +204,57 @@ export default function Accountsummary() {
         </Button>
       </div>
       <div>
-        <StockChart />
-        <div>
+        <div style={graphSt}>
+          <StockChart />
+        </div>
+        <div style={table}>
           <Paper className={classes.root}>
             <Table className={classes.table} aria-label="caption table">
               <caption>Stock Prices</caption>
               <TableHead>
                 <TableRow>
-                  <TableCell align="center">Symbol</TableCell>
-                  <TableCell align="center">Quantity</TableCell>
-                  <TableCell align="center">Last</TableCell>
-                  <TableCell align="center">Previous Day</TableCell>
-                  <TableCell align="center">Change%</TableCell>
-                  <TableCell align="center">Market Value</TableCell>
+                  <TableCell align="left">Symbol</TableCell>
+                  <TableCell align="left">Quantity</TableCell>
+                  <TableCell align="left">Last</TableCell>
+                  <TableCell align="left">Previous Close</TableCell>
+                  <TableCell align="left">Change%</TableCell>
+                  <TableCell align="left">Market Value</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
                 {rows.map((row) => (
                   <TableRow key={row.name}>
-                    <TableCell align="center" component="th" scope="row">
+                    <TableCell align="left" component="th" scope="row">
                       {row.Symbol}
                     </TableCell>
-                    <TableCell align="center">{row.Quantity}</TableCell>
-                    <TableCell align="center">{row.Last}</TableCell>
-                    <TableCell align="center">{row.Previous}</TableCell>
-                    <TableCell align="center">{row.Change}</TableCell>
-                    <TableCell align="center">{row.Value}</TableCell>
+                    <TableCell align="left">{row.Quantity}</TableCell>
+                    <TableCell align="left">
+                      ${row.Last.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                    </TableCell>
+                    <TableCell align="left">
+                      ${row.Previous.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                    </TableCell>
+                    <TableCell align="left">{row.Change}%</TableCell>
+                    <TableCell align="left">
+                      ${row.Value.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                    </TableCell>
                   </TableRow>
                 ))}
               </TableBody>
             </Table>
           </Paper>
+          <div style={addStockButton}>
+            <Button variant="outlined" color="primary" onClick={handleClick4}>
+              UPDATE STOCKS
+            </Button>
+            <Button variant="outlined" color="secondary" onClick={handleClick3}>
+              DELETE STOCKS
+            </Button>
+            <Button variant="outlined" color="primary" onClick={handleClick2}>
+              ADD STOCKS +
+            </Button>
+          </div>
         </div>
-      </div>
-      <div style={addStockButton}>
-        <Button variant="outlined" color="primary" onClick={handleClick4}>
-          UPDATE STOCKS
-        </Button>
-        <Button variant="outlined" color="secondary" onClick={handleClick3}>
-          DELETE STOCKS
-        </Button>
-        <Button variant="outlined" color="primary" onClick={handleClick2}>
-          ADD STOCKS +
-        </Button>
       </div>
     </React.Fragment>
   );

@@ -82,33 +82,39 @@ export default function AcccessibleTable() {
   console.log("Rows:", rows);
   return (
     <Paper className={classes.root}>
-      <Table className={classes.table} aria-label="caption table">
-        <caption>Stock Prices</caption>
-        <TableHead>
-          <TableRow>
-            <TableCell align="center">Symbol</TableCell>
-            <TableCell align="center">Quantity</TableCell>
-            <TableCell align="center">Last</TableCell>
-            <TableCell align="center">Previous Day</TableCell>
-            <TableCell align="center">Change%</TableCell>
-            <TableCell align="center">Market Value</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow key={row.name}>
-              <TableCell align="center" component="th" scope="row">
-                {row.Symbol}
-              </TableCell>
-              <TableCell align="center">{row.Quantity}</TableCell>
-              <TableCell align="center">{row.Last}</TableCell>
-              <TableCell align="center">{row.Previous}</TableCell>
-              <TableCell align="center">{row.Change}</TableCell>
-              <TableCell align="center">{row.Value}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </Paper>
+            <Table className={classes.table} aria-label="caption table">
+              <caption>Stock Prices</caption>
+              <TableHead>
+                <TableRow>
+                  <TableCell align="left">Symbol</TableCell>
+                  <TableCell align="left">Quantity</TableCell>
+                  <TableCell align="left">Last</TableCell>
+                  <TableCell align="left">Previous Close</TableCell>
+                  <TableCell align="left">Change%</TableCell>
+                  <TableCell align="left">Market Value</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {rows.map((row) => (
+                  <TableRow key={row.name}>
+                    <TableCell align="left" component="th" scope="row">
+                      {row.Symbol}
+                    </TableCell>
+                    <TableCell align="left">{row.Quantity}</TableCell>
+                    <TableCell align="left">
+                      ${row.Last.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                    </TableCell>
+                    <TableCell align="left">
+                      ${row.Previous.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                    </TableCell>
+                    <TableCell align="left">{row.Change}%</TableCell>
+                    <TableCell align="left">
+                      ${row.Value.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </Paper>
   );
 }

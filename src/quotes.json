@@ -1,1530 +1,2420 @@
 {
   "day": {
-    "3.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "0.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "15.87": {
-      "shield_price": 1.4677870832209523,
-      "prdPortMV": 0.0006552183783852911
-    },
-    "14.49": {
-      "shield_price": 1.8347338540261904,
-      "prdPortMV": 0.0008190229729816139
-    },
-    "13.11": {
-      "shield_price": 2.2016806248314285,
-      "prdPortMV": 0.0009828275675779366
-    },
-    "11.73": {
-      "shield_price": 2.6909429859050795,
-      "prdPortMV": 0.001201233693706367
-    },
-    "10.35": {
-      "shield_price": 3.547152117783968,
-      "prdPortMV": 0.0015834444144311199
-    },
-    "10.07": {
-      "shield_price": 3.6694677080523808,
-      "prdPortMV": 0.0016380459459632278
-    },
-    "9.80": {
-      "shield_price": 3.9140988885892063,
-      "prdPortMV": 0.0017472490090274428
-    },
-    "9.52": {
-      "shield_price": 4.158730069126032,
-      "prdPortMV": 0.0018564520720916584
-    },
-    "9.25": {
-      "shield_price": 4.403361249662857,
-      "prdPortMV": 0.0019656551351558732
-    },
-    "8.97": {
-      "shield_price": 4.6479924301996824,
-      "prdPortMV": 0.0020748581982200885
-    },
-    "8.69": {
-      "shield_price": 4.892623610736508,
-      "prdPortMV": 0.002184061261284304
-    },
-    "8.42": {
-      "shield_price": 5.259570381541746,
-      "prdPortMV": 0.0023478658558806265
-    },
-    "8.14": {
-      "shield_price": 5.504201562078571,
-      "prdPortMV": 0.002457068918944842
-    },
-    "7.87": {
-      "shield_price": 5.871148332883809,
-      "prdPortMV": 0.0026208735135411646
-    },
-    "7.59": {
-      "shield_price": 6.238095103689048,
-      "prdPortMV": 0.002784678108137487
-    },
-    "7.32": {
-      "shield_price": 6.727357464762699,
-      "prdPortMV": 0.003003084234265918
-    },
-    "7.04": {
-      "shield_price": 7.216619825836348,
-      "prdPortMV": 0.0032214903603943476
-    },
-    "6.76": {
-      "shield_price": 7.70588218691,
-      "prdPortMV": 0.0034398964865227787
-    },
-    "6.49": {
-      "shield_price": 8.317460138252065,
-      "prdPortMV": 0.0037129041441833167
-    },
-    "6.21": {
-      "shield_price": 8.806722499325714,
-      "prdPortMV": 0.0039313102703117464
-    },
-    "5.94": {
-      "shield_price": 9.540616040936191,
-      "prdPortMV": 0.004258919459504393
-    },
-    "5.66": {
-      "shield_price": 10.274509582546665,
-      "prdPortMV": 0.004586528648697037
-    },
-    "5.38": {
-      "shield_price": 11.008403124157143,
-      "prdPortMV": 0.004914137837889684
-    },
-    "5.11": {
-      "shield_price": 11.86461225603603,
-      "prdPortMV": 0.005296348558614435
-    },
-    "4.83": {
-      "shield_price": 12.72082138791492,
-      "prdPortMV": 0.0056785592793391895
-    },
-    "4.56": {
-      "shield_price": 13.699346110062223,
-      "prdPortMV": 0.00611537153159605
-    },
-    "4.28": {
-      "shield_price": 14.800186422477935,
-      "prdPortMV": 0.006606785315385019
-    },
-    "4.01": {
-      "shield_price": 16.023342325162062,
-      "prdPortMV": 0.007152800630706093
-    },
-    "3.73": {
-      "shield_price": 17.24649822784619,
-      "prdPortMV": 0.007698815946027169
-    },
-    "3.45": {
-      "shield_price": 18.714285311067144,
-      "prdPortMV": 0.008354034324412462
-    },
-    "3.18": {
-      "shield_price": 20.182072394288095,
-      "prdPortMV": 0.009009252702797753
-    },
-    "2.90": {
-      "shield_price": 21.89449065804587,
-      "prdPortMV": 0.009773674144247258
-    },
-    "2.63": {
-      "shield_price": 23.72922451207206,
-      "prdPortMV": 0.01059269711722887
-    },
-    "2.35": {
-      "shield_price": 25.808589546635076,
-      "prdPortMV": 0.0115209231532747
-    },
-    "2.07": {
-      "shield_price": 28.13258576173492,
-      "prdPortMV": 0.012558352252384745
-    },
-    "1.80": {
-      "shield_price": 30.578897567103173,
-      "prdPortMV": 0.013650382883026897
-    },
-    "1.52": {
-      "shield_price": 33.392156143276665,
-      "prdPortMV": 0.014906218108265371
-    },
-    "1.25": {
-      "shield_price": 36.45004589998698,
-      "prdPortMV": 0.01627125639656806
-    },
-    "0.97": {
-      "shield_price": 39.874882427502534,
-      "prdPortMV": 0.01780009927946707
-    },
-    "0.70": {
-      "shield_price": 43.66666572582333,
-      "prdPortMV": 0.019492746756962408
-    },
-    "0.42": {
-      "shield_price": 47.94771138521777,
-      "prdPortMV": 0.021403800360586173
-    },
-    "0.14": {
-      "shield_price": 52.718019405685865,
-      "prdPortMV": 0.02353326009033837
-    }
+      "18.63": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.81,
+          "diy_percentage": 0.0007766736391179506
+      },
+      "17.25": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.87,
+          "diy_percentage": 0.0008024197266025236
+      },
+      "16.97": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.8599999999999999,
+          "diy_percentage": 0.0007981287120217614
+      },
+      "16.7": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.85,
+          "diy_percentage": 0.0007938376974409992
+      },
+      "16.56": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.8199999999999998,
+          "diy_percentage": 0.0007809646536987127
+      },
+      "16.42": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.8499999999999999,
+          "diy_percentage": 0.0007938376974409992
+      },
+      "16.15": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.8599999999999999,
+          "diy_percentage": 0.0007981287120217614
+      },
+      "15.87": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.8599999999999999,
+          "diy_percentage": 0.0007981287120217614
+      },
+      "15.6": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.89,
+          "diy_percentage": 0.0008110017557640479
+      },
+      "15.32": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.9,
+          "diy_percentage": 0.0008152927703448101
+      },
+      "15.18": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.9,
+          "diy_percentage": 0.0008152927703448101
+      },
+      "15.04": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.97,
+          "diy_percentage": 0.0008453298724101451
+      },
+      "14.77": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.91,
+          "diy_percentage": 0.0008195837849255723
+      },
+      "14.49": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.99,
+          "diy_percentage": 0.0008539119015716695
+      },
+      "14.22": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.99,
+          "diy_percentage": 0.0008539119015716695
+      },
+      "13.94": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.02,
+          "diy_percentage": 0.0008667849453139559
+      },
+      "13.8": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.05,
+          "diy_percentage": 0.0008796579890562423
+      },
+      "13.66": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.05,
+          "diy_percentage": 0.0008796579890562423
+      },
+      "13.39": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.98,
+          "diy_percentage": 0.0008496208869909073
+      },
+      "13.11": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.06,
+          "diy_percentage": 0.0008839490036370045
+      },
+      "12.84": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.02,
+          "diy_percentage": 0.0008667849453139559
+      },
+      "12.56": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 0.77,
+          "diy_percentage": 0.00033040812271868615
+      },
+      "12.42": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.0300000000000002,
+          "diy_percentage": 0.0008710759598947181
+      },
+      "12.29": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.0300000000000002,
+          "diy_percentage": 0.0008710759598947181
+      },
+      "12.01": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.06,
+          "diy_percentage": 0.0008839490036370045
+      },
+      "11.73": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 2.03,
+          "diy_percentage": 0.0008710759598947181
+      },
+      "11.46": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.13,
+          "diy_percentage": 0.0009139861057023397
+      },
+      "11.18": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.21,
+          "diy_percentage": 0.000948314222348437
+      },
+      "11.04": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.31,
+          "diy_percentage": 0.0009912243681560586
+      },
+      "10.91": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.33,
+          "diy_percentage": 0.0009998063973175827
+      },
+      "10.63": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.34,
+          "diy_percentage": 0.0010040974118983449
+      },
+      "10.35": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.42,
+          "diy_percentage": 0.001038425528544442
+      },
+      "10.08": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.1400000000000001,
+          "diy_percentage": 0.000489175662206886
+      },
+      "9.8": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.2,
+          "diy_percentage": 0.000514921749691459
+      },
+      "9.67": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.17,
+          "diy_percentage": 0.0005020487059491725
+      },
+      "9.53": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.77,
+          "diy_percentage": 0.000759509580794902
+      },
+      "9.25": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.4699999999999998,
+          "diy_percentage": 0.001059880601448253
+      },
+      "8.98": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.98,
+          "diy_percentage": 0.0008496208869909073
+      },
+      "8.7": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.21,
+          "diy_percentage": 0.000519212764272221
+      },
+      "8.42": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.25,
+          "diy_percentage": 0.0009654782806714856
+      },
+      "8.29": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.25,
+          "diy_percentage": 0.0009654782806714856
+      },
+      "8.15": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.7,
+          "diy_percentage": 0.0011585739368057827
+      },
+      "7.87": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.69,
+          "diy_percentage": 0.0011542829222250205
+      },
+      "7.6": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.08,
+          "diy_percentage": 0.0008925310327985289
+      },
+      "7.32": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.6800000000000002,
+          "diy_percentage": 0.0007208904495680426
+      },
+      "7.04": {
+          "shield_price": 0.122033253806708,
+          "percentage_portfolio_market_value": 5.236464714224331e-05,
+          "diy_price": 1.83,
+          "diy_percentage": 0.0007852556682794748
+      },
+      "6.91": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 1.83,
+          "diy_percentage": 0.0007852556682794748
+      },
+      "6.77": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 3.09,
+          "diy_percentage": 0.0013259235054555068
+      },
+      "6.49": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.44,
+          "diy_percentage": 0.0010470075577059665
+      },
+      "6.22": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.46,
+          "diy_percentage": 0.0010555895868674908
+      },
+      "5.94": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.88,
+          "diy_percentage": 0.0012358121992595015
+      },
+      "5.67": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.62,
+          "diy_percentage": 0.0011242458201596852
+      },
+      "5.53": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.55,
+          "diy_percentage": 0.0010942087180943502
+      },
+      "5.39": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.65,
+          "diy_percentage": 0.0011371188639019718
+      },
+      "5.11": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.7800000000000002,
+          "diy_percentage": 0.0011929020534518799
+      },
+      "4.84": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.06,
+          "diy_percentage": 0.0013130504617132202
+      },
+      "4.56": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.16,
+          "diy_percentage": 0.001355960607520842
+      },
+      "4.29": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.84,
+          "diy_percentage": 0.0016477495990126685
+      },
+      "4.15": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.8899999999999997,
+          "diy_percentage": 0.0016692046719164796
+      },
+      "4.01": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.87,
+          "diy_percentage": 0.0016606226427549552
+      },
+      "3.73": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.1,
+          "diy_percentage": 0.0017593159781124847
+      },
+      "3.46": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.83,
+          "diy_percentage": 0.0020725600425081222
+      },
+      "3.18": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 6.02,
+          "diy_percentage": 0.002583190777618819
+      },
+      "2.91": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 6.07,
+          "diy_percentage": 0.00260464585052263
+      },
+      "2.77": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 6.140000000000001,
+          "diy_percentage": 0.002634682952587965
+      },
+      "2.63": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 6.22,
+          "diy_percentage": 0.0026690110692340623
+      },
+      "2.36": {
+          "shield_price": 0.7321995228402479,
+          "percentage_portfolio_market_value": 0.00031418788285345983,
+          "diy_price": 8.899999999999999,
+          "diy_percentage": 0.0038190029768783206
+      },
+      "2.08": {
+          "shield_price": 0.976266030453664,
+          "percentage_portfolio_market_value": 0.0004189171771379465,
+          "diy_price": 10.48,
+          "diy_percentage": 0.004496983280638741
+      },
+      "1.8": {
+          "shield_price": 1.22033253806708,
+          "percentage_portfolio_market_value": 0.0005236464714224331,
+          "diy_price": 10.899999999999999,
+          "diy_percentage": 0.004677205893030752
+      },
+      "1.53": {
+          "shield_price": 1.7084655532939121,
+          "percentage_portfolio_market_value": 0.0007331050599914064,
+          "diy_price": 14.89,
+          "diy_percentage": 0.006389320710754853
+      },
+      "1.39": {
+          "shield_price": 2.074565314714036,
+          "percentage_portfolio_market_value": 0.0008901990014181363,
+          "diy_price": 15.64,
+          "diy_percentage": 0.006711146804312015
+      },
+      "1.25": {
+          "shield_price": 2.44066507613416,
+          "percentage_portfolio_market_value": 0.0010472929428448662,
+          "diy_price": 16.89,
+          "diy_percentage": 0.007247523626907284
+      },
+      "0.98": {
+          "shield_price": 3.5389643603945315,
+          "percentage_portfolio_market_value": 0.0015185747671250557,
+          "diy_price": 20.69,
+          "diy_percentage": 0.008878109167596904
+      },
+      "0.7": {
+          "shield_price": 5.125396659881735,
+          "percentage_portfolio_market_value": 0.002199315179974219,
+          "diy_price": 29.089999999999996,
+          "diy_percentage": 0.012482561415437117
+      },
+      "0.42": {
+          "shield_price": 7.566061736015896,
+          "percentage_portfolio_market_value": 0.0032466081228190854,
+          "diy_price": 32.99,
+          "diy_percentage": 0.01415605710193436
+      },
+      "0.15": {
+          "shield_price": 11.349092604023843,
+          "percentage_portfolio_market_value": 0.004869912184228628,
+          "diy_price": 42.27,
+          "diy_percentage": 0.01813811863288164
+      },
+      "0.01": {
+          "shield_price": 13.91179093396471,
+          "percentage_portfolio_market_value": 0.005969569774215737,
+          "diy_price": 46.019999999999996,
+          "diy_percentage": 0.019747249100667448
+      }
   },
   "week": {
-    "3.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "0.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "18.62": {
-      "shield_price": 1.9570494442946031,
-      "prdPortMV": 0.0008736245045137214
-    },
-    "18.35": {
-      "shield_price": 1.9570494442946031,
-      "prdPortMV": 0.0008736245045137214
-    },
-    "18.07": {
-      "shield_price": 2.079365034563016,
-      "prdPortMV": 0.0009282260360458292
-    },
-    "17.80": {
-      "shield_price": 2.079365034563016,
-      "prdPortMV": 0.0009282260360458292
-    },
-    "17.52": {
-      "shield_price": 2.2016806248314285,
-      "prdPortMV": 0.0009828275675779366
-    },
-    "17.25": {
-      "shield_price": 2.3239962150998412,
-      "prdPortMV": 0.0010374290991100443
-    },
-    "16.97": {
-      "shield_price": 2.3239962150998412,
-      "prdPortMV": 0.0010374290991100443
-    },
-    "16.69": {
-      "shield_price": 2.446311805368254,
-      "prdPortMV": 0.001092030630642152
-    },
-    "16.42": {
-      "shield_price": 2.5686273956366663,
-      "prdPortMV": 0.0011466321621742593
-    },
-    "16.14": {
-      "shield_price": 2.5686273956366663,
-      "prdPortMV": 0.0011466321621742593
-    },
-    "15.87": {
-      "shield_price": 2.6909429859050795,
-      "prdPortMV": 0.001201233693706367
-    },
-    "15.59": {
-      "shield_price": 2.8132585761734923,
-      "prdPortMV": 0.0012558352252384749
-    },
-    "15.31": {
-      "shield_price": 2.9355741664419046,
-      "prdPortMV": 0.0013104367567705823
-    },
-    "15.04": {
-      "shield_price": 3.0578897567103174,
-      "prdPortMV": 0.0013650382883026897
-    },
-    "14.76": {
-      "shield_price": 3.18020534697873,
-      "prdPortMV": 0.0014196398198347974
-    },
-    "14.49": {
-      "shield_price": 3.302520937247143,
-      "prdPortMV": 0.001474241351366905
-    },
-    "14.21": {
-      "shield_price": 3.4248365275155557,
-      "prdPortMV": 0.0015288428828990125
-    },
-    "13.94": {
-      "shield_price": 3.547152117783968,
-      "prdPortMV": 0.0015834444144311199
-    },
-    "13.66": {
-      "shield_price": 3.6694677080523808,
-      "prdPortMV": 0.0016380459459632278
-    },
-    "13.38": {
-      "shield_price": 3.7917832983207935,
-      "prdPortMV": 0.0016926474774953352
-    },
-    "13.11": {
-      "shield_price": 4.036414478857619,
-      "prdPortMV": 0.0018018505405595505
-    },
-    "12.83": {
-      "shield_price": 4.158730069126032,
-      "prdPortMV": 0.0018564520720916584
-    },
-    "12.56": {
-      "shield_price": 4.403361249662857,
-      "prdPortMV": 0.0019656551351558732
-    },
-    "12.28": {
-      "shield_price": 4.525676839931269,
-      "prdPortMV": 0.0020202566666879807
-    },
-    "12.00": {
-      "shield_price": 4.770308020468096,
-      "prdPortMV": 0.0021294597297521964
-    },
-    "11.73": {
-      "shield_price": 5.01493920100492,
-      "prdPortMV": 0.002238662792816411
-    },
-    "11.45": {
-      "shield_price": 5.259570381541746,
-      "prdPortMV": 0.0023478658558806265
-    },
-    "11.18": {
-      "shield_price": 5.504201562078571,
-      "prdPortMV": 0.002457068918944842
-    },
-    "10.90": {
-      "shield_price": 5.748832742615396,
-      "prdPortMV": 0.0025662719820090563
-    },
-    "10.63": {
-      "shield_price": 5.9934639231522215,
-      "prdPortMV": 0.0026754750450732716
-    },
-    "10.35": {
-      "shield_price": 6.36041069395746,
-      "prdPortMV": 0.0028392796396695947
-    },
-    "10.07": {
-      "shield_price": 6.605041874494286,
-      "prdPortMV": 0.00294848270273381
-    },
-    "9.80": {
-      "shield_price": 6.971988645299523,
-      "prdPortMV": 0.0031122872973301323
-    },
-    "9.52": {
-      "shield_price": 7.3389354161047615,
-      "prdPortMV": 0.0032760918919264555
-    },
-    "9.25": {
-      "shield_price": 7.828197777178413,
-      "prdPortMV": 0.0034944980180548857
-    },
-    "8.97": {
-      "shield_price": 8.19514454798365,
-      "prdPortMV": 0.0036583026126512084
-    },
-    "8.69": {
-      "shield_price": 8.684406909057302,
-      "prdPortMV": 0.003876708738779639
-    },
-    "8.42": {
-      "shield_price": 9.173669270130953,
-      "prdPortMV": 0.004095114864908069
-    },
-    "8.14": {
-      "shield_price": 9.662931631204604,
-      "prdPortMV": 0.0043135209910365
-    },
-    "7.87": {
-      "shield_price": 10.274509582546665,
-      "prdPortMV": 0.004586528648697037
-    },
-    "7.59": {
-      "shield_price": 10.88608753388873,
-      "prdPortMV": 0.004859536306357576
-    },
-    "7.32": {
-      "shield_price": 11.497665485230792,
-      "prdPortMV": 0.0051325439640181126
-    },
-    "7.04": {
-      "shield_price": 12.109243436572857,
-      "prdPortMV": 0.005405551621678652
-    },
-    "6.76": {
-      "shield_price": 12.843136978183333,
-      "prdPortMV": 0.005733160810871297
-    },
-    "6.49": {
-      "shield_price": 13.699346110062223,
-      "prdPortMV": 0.00611537153159605
-    },
-    "6.21": {
-      "shield_price": 14.55555524194111,
-      "prdPortMV": 0.006497582252320803
-    },
-    "5.94": {
-      "shield_price": 15.41176437382,
-      "prdPortMV": 0.006879792973045557
-    },
-    "5.66": {
-      "shield_price": 16.3902890959673,
-      "prdPortMV": 0.007316605225302417
-    },
-    "5.38": {
-      "shield_price": 17.368813818114603,
-      "prdPortMV": 0.007753417477559278
-    },
-    "5.11": {
-      "shield_price": 18.469654130530316,
-      "prdPortMV": 0.008244831261348246
-    },
-    "4.83": {
-      "shield_price": 19.692810033214446,
-      "prdPortMV": 0.008790846576669323
-    },
-    "4.56": {
-      "shield_price": 20.91596593589857,
-      "prdPortMV": 0.009336861891990398
-    },
-    "4.28": {
-      "shield_price": 22.26143742885111,
-      "prdPortMV": 0.009937478738843581
-    },
-    "4.01": {
-      "shield_price": 23.72922451207206,
-      "prdPortMV": 0.01059269711722887
-    },
-    "3.73": {
-      "shield_price": 25.319327185561427,
-      "prdPortMV": 0.011302517027146271
-    },
-    "3.45": {
-      "shield_price": 27.031745449319207,
-      "prdPortMV": 0.012066938468595778
-    },
-    "3.18": {
-      "shield_price": 28.866479303345393,
-      "prdPortMV": 0.01288596144157739
-    },
-    "2.90": {
-      "shield_price": 30.82352874764,
-      "prdPortMV": 0.013759585946091115
-    },
-    "2.63": {
-      "shield_price": 33.02520937247143,
-      "prdPortMV": 0.014742413513669051
-    },
-    "2.35": {
-      "shield_price": 35.34920558757127,
-      "prdPortMV": 0.015779842612779094
-    },
-    "2.07": {
-      "shield_price": 37.91783298320794,
-      "prdPortMV": 0.016926474774953352
-    },
-    "1.80": {
-      "shield_price": 40.731091559381426,
-      "prdPortMV": 0.018182310000191826
-    },
-    "1.52": {
-      "shield_price": 43.66666572582333,
-      "prdPortMV": 0.019492746756962408
-    },
-    "1.25": {
-      "shield_price": 47.09150225333889,
-      "prdPortMV": 0.02102158963986142
-    },
-    "0.97": {
-      "shield_price": 50.638654371122854,
-      "prdPortMV": 0.022605034054292542
-    },
-    "0.70": {
-      "shield_price": 54.67506884998047,
-      "prdPortMV": 0.02440688459485209
-    },
-    "0.42": {
-      "shield_price": 59.078430099643334,
-      "prdPortMV": 0.026372539730007968
-    },
-    "0.14": {
-      "shield_price": 63.84873812011142,
-      "prdPortMV": 0.028501999459760157
-    }
+      "18.63": {
+          "shield_price": 0.244066507613416,
+          "percentage_portfolio_market_value": 0.00010472929428448662,
+          "diy_price": 2.19,
+          "diy_percentage": 0.0009397321931869126
+      },
+      "17.25": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.8600000000000003,
+          "diy_percentage": 0.001227230170097977
+      },
+      "16.97": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.8800000000000003,
+          "diy_percentage": 0.0012358121992595015
+      },
+      "16.7": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 2.87,
+          "diy_percentage": 0.0012315211846787393
+      },
+      "16.42": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.1100000000000003,
+          "diy_percentage": 0.0013345055346170311
+      },
+      "16.15": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.12,
+          "diy_percentage": 0.0013387965491977933
+      },
+      "15.87": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.14,
+          "diy_percentage": 0.0013473785783593177
+      },
+      "15.6": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.46,
+          "diy_percentage": 0.0014846910449437065
+      },
+      "15.32": {
+          "shield_price": 0.36609976142012396,
+          "percentage_portfolio_market_value": 0.00015709394142672992,
+          "diy_price": 3.59,
+          "diy_percentage": 0.0015404742344936146
+      },
+      "15.04": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 3.71,
+          "diy_percentage": 0.0015919664094627606
+      },
+      "14.77": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 3.64,
+          "diy_percentage": 0.0015619293073974253
+      },
+      "14.49": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.1,
+          "diy_percentage": 0.0017593159781124847
+      },
+      "14.22": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.18,
+          "diy_percentage": 0.001793644094758582
+      },
+      "13.94": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.25,
+          "diy_percentage": 0.0018236811968239171
+      },
+      "13.66": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.699999999999999,
+          "diy_percentage": 0.002016776852958214
+      },
+      "13.39": {
+          "shield_price": 0.488133015226832,
+          "percentage_portfolio_market_value": 0.00020945858856897325,
+          "diy_price": 4.64,
+          "diy_percentage": 0.0019910307654736415
+      },
+      "13.11": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 4.85,
+          "diy_percentage": 0.0020811420716696466
+      },
+      "12.84": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 5.529999999999999,
+          "diy_percentage": 0.0023729310631614734
+      },
+      "12.56": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 5.58,
+          "diy_percentage": 0.002394386136065284
+      },
+      "12.29": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 5.630000000000001,
+          "diy_percentage": 0.002415841208969095
+      },
+      "12.01": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 6.279999999999999,
+          "diy_percentage": 0.0026947571567186353
+      },
+      "11.73": {
+          "shield_price": 0.61016626903354,
+          "percentage_portfolio_market_value": 0.00026182323571121655,
+          "diy_price": 6.43,
+          "diy_percentage": 0.0027591223754300674
+      },
+      "11.46": {
+          "shield_price": 0.7321995228402479,
+          "percentage_portfolio_market_value": 0.00031418788285345983,
+          "diy_price": 6.62,
+          "diy_percentage": 0.0028406516524645486
+      },
+      "11.18": {
+          "shield_price": 0.7321995228402479,
+          "percentage_portfolio_market_value": 0.00031418788285345983,
+          "diy_price": 7.24,
+          "diy_percentage": 0.0031066945564718024
+      },
+      "10.91": {
+          "shield_price": 0.7321995228402479,
+          "percentage_portfolio_market_value": 0.00031418788285345983,
+          "diy_price": 7.569999999999999,
+          "diy_percentage": 0.0032482980376369536
+      },
+      "10.63": {
+          "shield_price": 0.7321995228402479,
+          "percentage_portfolio_market_value": 0.00031418788285345983,
+          "diy_price": 7.88,
+          "diy_percentage": 0.0033813194896405805
+      },
+      "10.35": {
+          "shield_price": 0.8542327766469561,
+          "percentage_portfolio_market_value": 0.0003665525299957032,
+          "diy_price": 8.73,
+          "diy_percentage": 0.0037460557290053638
+      },
+      "10.08": {
+          "shield_price": 0.8542327766469561,
+          "percentage_portfolio_market_value": 0.0003665525299957032,
+          "diy_price": 8.93,
+          "diy_percentage": 0.0038318760206206065
+      },
+      "9.8": {
+          "shield_price": 0.8542327766469561,
+          "percentage_portfolio_market_value": 0.0003665525299957032,
+          "diy_price": 9.389999999999999,
+          "diy_percentage": 0.004029262691335666
+      },
+      "9.53": {
+          "shield_price": 0.8542327766469561,
+          "percentage_portfolio_market_value": 0.0003665525299957032,
+          "diy_price": 9.59,
+          "diy_percentage": 0.004115082982950909
+      },
+      "9.25": {
+          "shield_price": 0.976266030453664,
+          "percentage_portfolio_market_value": 0.0004189171771379465,
+          "diy_price": 10.969999999999999,
+          "diy_percentage": 0.0047072429950960875
+      },
+      "8.98": {
+          "shield_price": 0.976266030453664,
+          "percentage_portfolio_market_value": 0.0004189171771379465,
+          "diy_price": 11.24,
+          "diy_percentage": 0.004823100388776666
+      },
+      "8.7": {
+          "shield_price": 1.0982992842603718,
+          "percentage_portfolio_market_value": 0.0004712818242801898,
+          "diy_price": 11.68,
+          "diy_percentage": 0.005011905030330201
+      },
+      "8.42": {
+          "shield_price": 1.0982992842603718,
+          "percentage_portfolio_market_value": 0.0004712818242801898,
+          "diy_price": 13.35,
+          "diy_percentage": 0.005728504465317481
+      },
+      "8.15": {
+          "shield_price": 1.22033253806708,
+          "percentage_portfolio_market_value": 0.0005236464714224331,
+          "diy_price": 13.57,
+          "diy_percentage": 0.005822906786094248
+      },
+      "7.87": {
+          "shield_price": 1.22033253806708,
+          "percentage_portfolio_market_value": 0.0005236464714224331,
+          "diy_price": 14.17,
+          "diy_percentage": 0.006080367660939978
+      },
+      "7.6": {
+          "shield_price": 1.342365791873788,
+          "percentage_portfolio_market_value": 0.0005760111185646764,
+          "diy_price": 16.21,
+          "diy_percentage": 0.006955734635415458
+      },
+      "7.32": {
+          "shield_price": 1.4643990456804958,
+          "percentage_portfolio_market_value": 0.0006283757657069197,
+          "diy_price": 16.86,
+          "diy_percentage": 0.0072346505831649985
+      },
+      "7.04": {
+          "shield_price": 1.586432299487204,
+          "percentage_portfolio_market_value": 0.000680740412849163,
+          "diy_price": 17.46,
+          "diy_percentage": 0.0074921114580107275
+      },
+      "6.77": {
+          "shield_price": 1.7084655532939121,
+          "percentage_portfolio_market_value": 0.0007331050599914064,
+          "diy_price": 20.33,
+          "diy_percentage": 0.008723632642689466
+      },
+      "6.49": {
+          "shield_price": 1.8304988071006199,
+          "percentage_portfolio_market_value": 0.0007854697071336496,
+          "diy_price": 21.33,
+          "diy_percentage": 0.009152734100765683
+      },
+      "6.22": {
+          "shield_price": 1.952532060907328,
+          "percentage_portfolio_market_value": 0.000837834354275893,
+          "diy_price": 23.08,
+          "diy_percentage": 0.00990366165239906
+      },
+      "5.94": {
+          "shield_price": 2.074565314714036,
+          "percentage_portfolio_market_value": 0.0008901990014181363,
+          "diy_price": 24.58,
+          "diy_percentage": 0.010547313839513385
+      },
+      "5.67": {
+          "shield_price": 2.318631822327452,
+          "percentage_portfolio_market_value": 0.000994928295702623,
+          "diy_price": 27.119999999999997,
+          "diy_percentage": 0.011637231543026972
+      },
+      "5.39": {
+          "shield_price": 2.5626983299408677,
+          "percentage_portfolio_market_value": 0.0010996575899871095,
+          "diy_price": 29.32,
+          "diy_percentage": 0.012581254750794645
+      },
+      "5.11": {
+          "shield_price": 2.806764837554284,
+          "percentage_portfolio_market_value": 0.0012043868842715963,
+          "diy_price": 30.89,
+          "diy_percentage": 0.013254944039974306
+      },
+      "4.84": {
+          "shield_price": 3.172864598974408,
+          "percentage_portfolio_market_value": 0.001361480825698326,
+          "diy_price": 33.940000000000005,
+          "diy_percentage": 0.014563703487106765
+      },
+      "4.56": {
+          "shield_price": 3.5389643603945315,
+          "percentage_portfolio_market_value": 0.0015185747671250557,
+          "diy_price": 36.989999999999995,
+          "diy_percentage": 0.015872462934239225
+      },
+      "4.29": {
+          "shield_price": 4.027097375621364,
+          "percentage_portfolio_market_value": 0.001728033355694029,
+          "diy_price": 39.15,
+          "diy_percentage": 0.01679932208368385
+      },
+      "4.01": {
+          "shield_price": 4.515230390848195,
+          "percentage_portfolio_market_value": 0.0019374919442630022,
+          "diy_price": 43.85,
+          "diy_percentage": 0.018816098936642062
+      },
+      "3.73": {
+          "shield_price": 5.125396659881735,
+          "percentage_portfolio_market_value": 0.002199315179974219,
+          "diy_price": 47.78,
+          "diy_percentage": 0.02050246766688159
+      },
+      "3.46": {
+          "shield_price": 5.735562928915275,
+          "percentage_portfolio_market_value": 0.002461138415685435,
+          "diy_price": 50.230000000000004,
+          "diy_percentage": 0.02155376623916832
+      },
+      "3.18": {
+          "shield_price": 6.589795705562232,
+          "percentage_portfolio_market_value": 0.002827690945681139,
+          "diy_price": 57.18,
+          "diy_percentage": 0.02453602137279802
+      },
+      "2.91": {
+          "shield_price": 7.444028482209188,
+          "percentage_portfolio_market_value": 0.003194243475676842,
+          "diy_price": 61.040000000000006,
+          "diy_percentage": 0.026192353000972213
+      },
+      "2.63": {
+          "shield_price": 8.542327766469558,
+          "percentage_portfolio_market_value": 0.003665525299957031,
+          "diy_price": 65.39,
+          "diy_percentage": 0.028058944343603752
+      },
+      "2.36": {
+          "shield_price": 9.884693558343349,
+          "percentage_portfolio_market_value": 0.004241536418521709,
+          "diy_price": 73.54,
+          "diy_percentage": 0.031556121226924916
+      },
+      "2.08": {
+          "shield_price": 11.349092604023843,
+          "percentage_portfolio_market_value": 0.004869912184228628,
+          "diy_price": 77.89,
+          "diy_percentage": 0.03342271256955645
+      },
+      "1.8": {
+          "shield_price": 13.057558157317755,
+          "percentage_portfolio_market_value": 0.005603017244220034,
+          "diy_price": 85.93,
+          "diy_percentage": 0.03687268829248922
+      },
+      "1.53": {
+          "shield_price": 15.132123472031791,
+          "percentage_portfolio_market_value": 0.006493216245638171,
+          "diy_price": 93.43,
+          "diy_percentage": 0.04009094922806084
+      },
+      "1.25": {
+          "shield_price": 17.450755294359244,
+          "percentage_portfolio_market_value": 0.007488144541340794,
+          "diy_price": 99.33,
+          "diy_percentage": 0.042622647830710514
+      },
+      "0.98": {
+          "shield_price": 20.257520131913527,
+          "percentage_portfolio_market_value": 0.008692531425612389,
+          "diy_price": 108.80000000000001,
+          "diy_percentage": 0.04668623863869228
+      },
+      "0.7": {
+          "shield_price": 23.430384730887933,
+          "percentage_portfolio_market_value": 0.010054012251310715,
+          "diy_price": 120.39999999999999,
+          "diy_percentage": 0.051663815552376376
+      },
+      "0.42": {
+          "shield_price": 27.335448852702594,
+          "percentage_portfolio_market_value": 0.011729680959862503,
+          "diy_price": 125.45,
+          "diy_percentage": 0.05383077791566127
+      },
+      "0.15": {
+          "shield_price": 31.850679243550786,
+          "percentage_portfolio_market_value": 0.013667172904125504,
+          "diy_price": 137.25,
+          "diy_percentage": 0.058894175120960617
+      }
   },
   "month": {
-    "3.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "0.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "14.49": {
-      "shield_price": 16.3902890959673,
-      "prdPortMV": 0.007316605225302417
-    },
-    "13.11": {
-      "shield_price": 19.692810033214446,
-      "prdPortMV": 0.008790846576669323
-    },
-    "11.73": {
-      "shield_price": 23.484593331535237,
-      "prdPortMV": 0.010483494054164658
-    },
-    "10.35": {
-      "shield_price": 28.13258576173492,
-      "prdPortMV": 0.012558352252384745
-    },
-    "9.52": {
-      "shield_price": 31.31279110871365,
-      "prdPortMV": 0.013977992072219543
-    },
-    "9.25": {
-      "shield_price": 32.53594701139778,
-      "prdPortMV": 0.01452400738754062
-    },
-    "8.97": {
-      "shield_price": 33.63678732381349,
-      "prdPortMV": 0.015015421171329587
-    },
-    "8.69": {
-      "shield_price": 34.98225881676603,
-      "prdPortMV": 0.015616038018182768
-    },
-    "8.42": {
-      "shield_price": 36.205414719450154,
-      "prdPortMV": 0.016162053333503845
-    },
-    "8.14": {
-      "shield_price": 37.550886212402695,
-      "prdPortMV": 0.01676267018035703
-    },
-    "7.87": {
-      "shield_price": 38.896357705355236,
-      "prdPortMV": 0.01736328702721021
-    },
-    "7.59": {
-      "shield_price": 40.36414478857619,
-      "prdPortMV": 0.018018505405595506
-    },
-    "7.32": {
-      "shield_price": 41.83193187179714,
-      "prdPortMV": 0.018673723783980797
-    },
-    "7.04": {
-      "shield_price": 43.42203454528651,
-      "prdPortMV": 0.019383543693898195
-    },
-    "6.90": {
-      "shield_price": 44.15592808689698,
-      "prdPortMV": 0.019711152883090836
-    },
-    "6.76": {
-      "shield_price": 45.01213721877588,
-      "prdPortMV": 0.020093363603815598
-    },
-    "6.49": {
-      "shield_price": 46.724555482533646,
-      "prdPortMV": 0.020857785045265097
-    },
-    "6.21": {
-      "shield_price": 48.43697374629143,
-      "prdPortMV": 0.021622206486714608
-    },
-    "5.94": {
-      "shield_price": 50.1493920100492,
-      "prdPortMV": 0.022386627928164107
-    },
-    "5.66": {
-      "shield_price": 52.1064414543438,
-      "prdPortMV": 0.02326025243267783
-    },
-    "5.52": {
-      "shield_price": 53.08496617649111,
-      "prdPortMV": 0.023697064684934693
-    },
-    "5.38": {
-      "shield_price": 54.06349089863841,
-      "prdPortMV": 0.024133876937191556
-    },
-    "5.11": {
-      "shield_price": 56.02054034293302,
-      "prdPortMV": 0.025007501441705278
-    },
-    "4.83": {
-      "shield_price": 58.09990537749603,
-      "prdPortMV": 0.0259357274777511
-    },
-    "4.56": {
-      "shield_price": 60.301586002327454,
-      "prdPortMV": 0.026918555045329043
-    },
-    "4.28": {
-      "shield_price": 62.6255822174273,
-      "prdPortMV": 0.027955984144439085
-    },
-    "4.14": {
-      "shield_price": 63.84873812011142,
-      "prdPortMV": 0.028501999459760157
-    },
-    "4.01": {
-      "shield_price": 65.07189402279556,
-      "prdPortMV": 0.02904801477508124
-    },
-    "3.73": {
-      "shield_price": 67.5182058281638,
-      "prdPortMV": 0.030140045405723386
-    },
-    "3.45": {
-      "shield_price": 70.08683322380048,
-      "prdPortMV": 0.03128667756789765
-    },
-    "3.18": {
-      "shield_price": 72.90009179997396,
-      "prdPortMV": 0.03254251279313612
-    },
-    "2.90": {
-      "shield_price": 75.71335037614746,
-      "prdPortMV": 0.0337983480183746
-    },
-    "2.76": {
-      "shield_price": 77.1811374593684,
-      "prdPortMV": 0.03445356639675989
-    },
-    "2.63": {
-      "shield_price": 78.64892454258936,
-      "prdPortMV": 0.035108784775145174
-    },
-    "2.35": {
-      "shield_price": 81.8291298895681,
-      "prdPortMV": 0.03652842459497998
-    },
-    "2.07": {
-      "shield_price": 85.13165082681523,
-      "prdPortMV": 0.03800266594634688
-    },
-    "1.80": {
-      "shield_price": 88.5564873543308,
-      "prdPortMV": 0.0395315088292459
-    },
-    "1.52": {
-      "shield_price": 92.22595506238318,
-      "prdPortMV": 0.04116955477520913
-    },
-    "1.39": {
-      "shield_price": 94.06068891640936,
-      "prdPortMV": 0.04198857774819074
-    },
-    "1.25": {
-      "shield_price": 96.01773836070396,
-      "prdPortMV": 0.04286220225270445
-    },
-    "0.97": {
-      "shield_price": 100.05415283956158,
-      "prdPortMV": 0.044664052793264006
-    },
-    "0.70": {
-      "shield_price": 104.33519849895602,
-      "prdPortMV": 0.04657510639688777
-    },
-    "0.42": {
-      "shield_price": 108.8608753388873,
-      "prdPortMV": 0.04859536306357575
-    },
-    "0.14": {
-      "shield_price": 113.50886776908698,
-      "prdPortMV": 0.050670221261795836
-    },
-    "0.01": {
-      "shield_price": 115.95517957445524,
-      "prdPortMV": 0.051762251892438
-    }
+      "18.63": {
+          "shield_price": 4.88133015226832,
+          "percentage_portfolio_market_value": 0.0020945858856897324,
+          "diy_price": 23.09,
+          "diy_percentage": 0.009907952666979823
+      },
+      "17.25": {
+          "shield_price": 5.857596182721983,
+          "percentage_portfolio_market_value": 0.0025135030628276787,
+          "diy_price": 27.66,
+          "diy_percentage": 0.011868946330388128
+      },
+      "15.87": {
+          "shield_price": 7.077928720789063,
+          "percentage_portfolio_market_value": 0.0030371495342501114,
+          "diy_price": 31.979999999999997,
+          "diy_percentage": 0.013722664629277383
+      },
+      "14.49": {
+          "shield_price": 8.542327766469558,
+          "percentage_portfolio_market_value": 0.003665525299957031,
+          "diy_price": 37.68000000000001,
+          "diy_percentage": 0.01616854294031181
+      },
+      "13.11": {
+          "shield_price": 10.494859827376887,
+          "percentage_portfolio_market_value": 0.004503359654232925,
+          "diy_price": 45.66,
+          "diy_percentage": 0.01959277257576001
+      },
+      "12.84": {
+          "shield_price": 10.860959588797012,
+          "percentage_portfolio_market_value": 0.004660453595659655,
+          "diy_price": 48.88,
+          "diy_percentage": 0.020974479270765428
+      },
+      "12.56": {
+          "shield_price": 11.349092604023843,
+          "percentage_portfolio_market_value": 0.004869912184228628,
+          "diy_price": 49.480000000000004,
+          "diy_percentage": 0.02123194014561116
+      },
+      "12.29": {
+          "shield_price": 11.837225619250676,
+          "percentage_portfolio_market_value": 0.005079370772797602,
+          "diy_price": 50.230000000000004,
+          "diy_percentage": 0.02155376623916832
+      },
+      "12.01": {
+          "shield_price": 12.325358634477507,
+          "percentage_portfolio_market_value": 0.005288829361366574,
+          "diy_price": 53.93,
+          "diy_percentage": 0.023141441634050318
+      },
+      "11.73": {
+          "shield_price": 12.81349164970434,
+          "percentage_portfolio_market_value": 0.005498287949935548,
+          "diy_price": 54.78,
+          "diy_percentage": 0.0235061778734151
+      },
+      "11.46": {
+          "shield_price": 13.42365791873788,
+          "percentage_portfolio_market_value": 0.005760111185646765,
+          "diy_price": 56.38,
+          "diy_percentage": 0.02419274020633705
+      },
+      "11.18": {
+          "shield_price": 14.033824187771419,
+          "percentage_portfolio_market_value": 0.006021934421357981,
+          "diy_price": 59.080000000000005,
+          "diy_percentage": 0.02535131414314283
+      },
+      "10.91": {
+          "shield_price": 14.643990456804959,
+          "percentage_portfolio_market_value": 0.006283757657069197,
+          "diy_price": 62.089999999999996,
+          "diy_percentage": 0.02664290953195224
+      },
+      "10.63": {
+          "shield_price": 15.254156725838499,
+          "percentage_portfolio_market_value": 0.0065455808927804135,
+          "diy_price": 63.190000000000005,
+          "diy_percentage": 0.02711492113583608
+      },
+      "10.35": {
+          "shield_price": 15.86432299487204,
+          "percentage_portfolio_market_value": 0.006807404128491631,
+          "diy_price": 65.99,
+          "diy_percentage": 0.028316405218449477
+      },
+      "10.08": {
+          "shield_price": 16.596522517712287,
+          "percentage_portfolio_market_value": 0.00712159201134509,
+          "diy_price": 67.14,
+          "diy_percentage": 0.02880987189523713
+      },
+      "9.8": {
+          "shield_price": 17.328722040552535,
+          "percentage_portfolio_market_value": 0.007435779894198549,
+          "diy_price": 69.59,
+          "diy_percentage": 0.029861170467523852
+      },
+      "9.53": {
+          "shield_price": 18.06092156339278,
+          "percentage_portfolio_market_value": 0.007749967777052009,
+          "diy_price": 70.94,
+          "diy_percentage": 0.030440457435926743
+      },
+      "9.25": {
+          "shield_price": 18.915154340039738,
+          "percentage_portfolio_market_value": 0.008116520307047712,
+          "diy_price": 81.49000000000001,
+          "diy_percentage": 0.03496747781863083
+      },
+      "8.98": {
+          "shield_price": 19.64735386287999,
+          "percentage_portfolio_market_value": 0.008430708189901173,
+          "diy_price": 82.99000000000001,
+          "diy_percentage": 0.035611130005745145
+      },
+      "8.7": {
+          "shield_price": 20.50158663952694,
+          "percentage_portfolio_market_value": 0.008797260719896876,
+          "diy_price": 86.69,
+          "diy_percentage": 0.037198805400627144
+      },
+      "8.42": {
+          "shield_price": 21.477852669980606,
+          "percentage_portfolio_market_value": 0.009216177897034822,
+          "diy_price": 91.94,
+          "diy_percentage": 0.03945158805552728
+      },
+      "8.15": {
+          "shield_price": 22.45411870043427,
+          "percentage_portfolio_market_value": 0.00963509507417277,
+          "diy_price": 93.75,
+          "diy_percentage": 0.040228261694645225
+      },
+      "7.87": {
+          "shield_price": 23.430384730887933,
+          "percentage_portfolio_market_value": 0.010054012251310715,
+          "diy_price": 96.45,
+          "diy_percentage": 0.04138683563145101
+      },
+      "7.6": {
+          "shield_price": 24.528684015148304,
+          "percentage_portfolio_market_value": 0.010525294075590904,
+          "diy_price": 103.75,
+          "diy_percentage": 0.04451927627540739
+      },
+      "7.32": {
+          "shield_price": 25.50495004560197,
+          "percentage_portfolio_market_value": 0.01094421125272885,
+          "diy_price": 106.19999999999999,
+          "diy_percentage": 0.04557057484769411
+      },
+      "7.04": {
+          "shield_price": 26.72528258366905,
+          "percentage_portfolio_market_value": 0.011467857724151286,
+          "diy_price": 110.05000000000001,
+          "diy_percentage": 0.047222615461287545
+      },
+      "6.77": {
+          "shield_price": 27.945615121736132,
+          "percentage_portfolio_market_value": 0.011991504195573719,
+          "diy_price": 117.85,
+          "diy_percentage": 0.050569606834282035
+      },
+      "6.49": {
+          "shield_price": 29.165947659803212,
+          "percentage_portfolio_market_value": 0.012515150666996154,
+          "diy_price": 122.5,
+          "diy_percentage": 0.05256492861433644
+      },
+      "6.22": {
+          "shield_price": 30.508313451676997,
+          "percentage_portfolio_market_value": 0.013091161785560827,
+          "diy_price": 124.94999999999999,
+          "diy_percentage": 0.053616227186623164
+      },
+      "5.94": {
+          "shield_price": 31.850679243550786,
+          "percentage_portfolio_market_value": 0.013667172904125504,
+          "diy_price": 128.75,
+          "diy_percentage": 0.055246812727312786
+      },
+      "5.67": {
+          "shield_price": 33.31507828923128,
+          "percentage_portfolio_market_value": 0.014295548669832422,
+          "diy_price": 135.45,
+          "diy_percentage": 0.058121792496423436
+      },
+      "5.39": {
+          "shield_price": 34.90151058871849,
+          "percentage_portfolio_market_value": 0.014976289082681588,
+          "diy_price": 140.14999999999998,
+          "diy_percentage": 0.060138569349381645
+      },
+      "5.11": {
+          "shield_price": 36.487942888205694,
+          "percentage_portfolio_market_value": 0.01565702949553075,
+          "diy_price": 144.89999999999998,
+          "diy_percentage": 0.06217680127524367
+      },
+      "4.84": {
+          "shield_price": 38.1964084414996,
+          "percentage_portfolio_market_value": 0.016390134555522153,
+          "diy_price": 153.75,
+          "diy_percentage": 0.06597434917921818
+      },
+      "4.56": {
+          "shield_price": 40.02690724860022,
+          "percentage_portfolio_market_value": 0.017175604262655804,
+          "diy_price": 158.95,
+          "diy_percentage": 0.0682056767612145
+      },
+      "4.29": {
+          "shield_price": 41.85740605570084,
+          "percentage_portfolio_market_value": 0.017961073969789455,
+          "diy_price": 163.85,
+          "diy_percentage": 0.07030827390578795
+      },
+      "4.01": {
+          "shield_price": 43.93197137041488,
+          "percentage_portfolio_market_value": 0.018851272971207592,
+          "diy_price": 174.64999999999998,
+          "diy_percentage": 0.07494256965301108
+      },
+      "3.73": {
+          "shield_price": 46.006536685128914,
+          "percentage_portfolio_market_value": 0.019741471972625727,
+          "diy_price": 177.79999999999998,
+          "diy_percentage": 0.07629423924595116
+      },
+      "3.46": {
+          "shield_price": 48.20313525364966,
+          "percentage_portfolio_market_value": 0.02068403562118611,
+          "diy_price": 184.3,
+          "diy_percentage": 0.07908339872344657
+      },
+      "3.18": {
+          "shield_price": 50.5217670759771,
+          "percentage_portfolio_market_value": 0.021678963916888727,
+          "diy_price": 195.8,
+          "diy_percentage": 0.08401806549132304
+      },
+      "2.91": {
+          "shield_price": 53.084465405917975,
+          "percentage_portfolio_market_value": 0.02277862150687584,
+          "diy_price": 202.85000000000002,
+          "diy_percentage": 0.08704323077076037
+      },
+      "2.63": {
+          "shield_price": 55.76919698966556,
+          "percentage_portfolio_market_value": 0.023930643744005196,
+          "diy_price": 206.25,
+          "diy_percentage": 0.0885021757282195
+      },
+      "2.36": {
+          "shield_price": 58.575961827219835,
+          "percentage_portfolio_market_value": 0.025135030628276787,
+          "diy_price": 219.7,
+          "diy_percentage": 0.09427359033934463
+      },
+      "2.08": {
+          "shield_price": 61.50475991858083,
+          "percentage_portfolio_market_value": 0.026391782159690628,
+          "diy_price": 226.79999999999998,
+          "diy_percentage": 0.09732021069168574
+      },
+      "1.8": {
+          "shield_price": 64.79965777136194,
+          "percentage_portfolio_market_value": 0.027805627632531194,
+          "diy_price": 233.74999999999997,
+          "diy_percentage": 0.10030246582531545
+      },
+      "1.53": {
+          "shield_price": 68.21658887794976,
+          "percentage_portfolio_market_value": 0.029271837752514008,
+          "diy_price": 247.4,
+          "diy_percentage": 0.10615970072805579
+      },
+      "1.25": {
+          "shield_price": 71.7555532383443,
+          "percentage_portfolio_market_value": 0.03079041251963907,
+          "diy_price": 253.45,
+          "diy_percentage": 0.10875576454941689
+      },
+      "0.98": {
+          "shield_price": 75.66061736015895,
+          "percentage_portfolio_market_value": 0.03246608122819085,
+          "diy_price": 262.95,
+          "diy_percentage": 0.11283222840114095
+      },
+      "0.7": {
+          "shield_price": 79.80974798958702,
+          "percentage_portfolio_market_value": 0.034246479231027124,
+          "diy_price": 276.34999999999997,
+          "diy_percentage": 0.11858218793936225
+      },
+      "0.42": {
+          "shield_price": 84.20294512662852,
+          "percentage_portfolio_market_value": 0.03613160652814789,
+          "diy_price": 283.2,
+          "diy_percentage": 0.12152153292718432
+      },
+      "0.15": {
+          "shield_price": 88.96224202509013,
+          "percentage_portfolio_market_value": 0.038173827766695374,
+          "diy_price": 292.85,
+          "diy_percentage": 0.1256623619976198
+      }
   },
   "quarter": {
-    "19.733": {
-      "shield_price": 38.651726524818415,
-      "prdPortMV": 0.017254083964146
-    },
-    "19.4572": {
-      "shield_price": 39.5079356566973,
-      "prdPortMV": 0.01763629468487075
-    },
-    "19.1813": {
-      "shield_price": 40.486460378844605,
-      "prdPortMV": 0.018073106937127614
-    },
-    "18.9055": {
-      "shield_price": 41.4649851009919,
-      "prdPortMV": 0.018509919189384473
-    },
-    "18.6297": {
-      "shield_price": 42.44350982313921,
-      "prdPortMV": 0.018946731441641336
-    },
-    "18.3538": {
-      "shield_price": 43.42203454528651,
-      "prdPortMV": 0.019383543693898195
-    },
-    "18.078": {
-      "shield_price": 44.52287485770222,
-      "prdPortMV": 0.019874957477687163
-    },
-    "17.8022": {
-      "shield_price": 45.501399579849526,
-      "prdPortMV": 0.020311769729944022
-    },
-    "17.5263": {
-      "shield_price": 46.60223989226524,
-      "prdPortMV": 0.020803183513732993
-    },
-    "17.2505": {
-      "shield_price": 47.70308020468095,
-      "prdPortMV": 0.02129459729752196
-    },
-    "16.9747": {
-      "shield_price": 48.80392051709667,
-      "prdPortMV": 0.021786011081310928
-    },
-    "16.6988": {
-      "shield_price": 50.02707641978079,
-      "prdPortMV": 0.022332026396632003
-    },
-    "16.423": {
-      "shield_price": 51.250232322464925,
-      "prdPortMV": 0.02287804171195308
-    },
-    "16.1472": {
-      "shield_price": 52.473388225149044,
-      "prdPortMV": 0.023424057027274157
-    },
-    "15.8714": {
-      "shield_price": 53.69654412783317,
-      "prdPortMV": 0.02397007234259523
-    },
-    "15.5955": {
-      "shield_price": 54.919700030517305,
-      "prdPortMV": 0.02451608765791631
-    },
-    "15.3197": {
-      "shield_price": 56.26517152346984,
-      "prdPortMV": 0.02511670450476949
-    },
-    "15.0439": {
-      "shield_price": 57.488327426153965,
-      "prdPortMV": 0.025662719820090565
-    },
-    "14.768": {
-      "shield_price": 58.95611450937492,
-      "prdPortMV": 0.02631793819847586
-    },
-    "14.4922": {
-      "shield_price": 60.301586002327454,
-      "prdPortMV": 0.026918555045329043
-    },
-    "14.2164": {
-      "shield_price": 61.64705749528,
-      "prdPortMV": 0.02751917189218223
-    },
-    "13.9405": {
-      "shield_price": 63.11484457850095,
-      "prdPortMV": 0.028174390270567517
-    },
-    "13.6647": {
-      "shield_price": 64.5826316617219,
-      "prdPortMV": 0.028829608648952808
-    },
-    "13.3889": {
-      "shield_price": 66.05041874494286,
-      "prdPortMV": 0.029484827027338102
-    },
-    "13.113": {
-      "shield_price": 67.64052141843223,
-      "prdPortMV": 0.0301946469372555
-    },
-    "12.8372": {
-      "shield_price": 69.23062409192158,
-      "prdPortMV": 0.030904466847172893
-    },
-    "12.5614": {
-      "shield_price": 70.82072676541095,
-      "prdPortMV": 0.0316142867570903
-    },
-    "12.2855": {
-      "shield_price": 72.41082943890031,
-      "prdPortMV": 0.03232410666700769
-    },
-    "12.0097": {
-      "shield_price": 74.12324770265809,
-      "prdPortMV": 0.0330885281084572
-    },
-    "11.7339": {
-      "shield_price": 75.83566596641587,
-      "prdPortMV": 0.033852949549906704
-    },
-    "11.458": {
-      "shield_price": 77.54808423017364,
-      "prdPortMV": 0.03461737099135621
-    },
-    "11.1822": {
-      "shield_price": 79.38281808419984,
-      "prdPortMV": 0.03543639396433783
-    },
-    "10.9064": {
-      "shield_price": 81.21755193822602,
-      "prdPortMV": 0.036255416937319436
-    },
-    "10.6306": {
-      "shield_price": 83.05228579225222,
-      "prdPortMV": 0.03707443991030106
-    },
-    "10.3547": {
-      "shield_price": 84.88701964627842,
-      "prdPortMV": 0.03789346288328267
-    },
-    "10.0789": {
-      "shield_price": 86.84406909057302,
-      "prdPortMV": 0.03876708738779639
-    },
-    "9.80306": {
-      "shield_price": 88.92343412513603,
-      "prdPortMV": 0.039695313423842214
-    },
-    "9.52722": {
-      "shield_price": 90.88048356943062,
-      "prdPortMV": 0.04056893792835593
-    },
-    "9.25139": {
-      "shield_price": 92.95984860399365,
-      "prdPortMV": 0.04149716396440177
-    },
-    "8.97556": {
-      "shield_price": 95.16152922882507,
-      "prdPortMV": 0.042479991531979705
-    },
-    "8.69973": {
-      "shield_price": 97.2408942633881,
-      "prdPortMV": 0.04340821756802554
-    },
-    "8.4239": {
-      "shield_price": 99.56489047848794,
-      "prdPortMV": 0.04444564666713558
-    },
-    "8.14807": {
-      "shield_price": 101.76657110331936,
-      "prdPortMV": 0.045428474234713516
-    },
-    "7.87223": {
-      "shield_price": 104.0905673184192,
-      "prdPortMV": 0.046465903333823555
-    },
-    "7.5964": {
-      "shield_price": 106.53687912378747,
-      "prdPortMV": 0.04755793396446572
-    },
-    "7.32057": {
-      "shield_price": 108.98319092915571,
-      "prdPortMV": 0.04864996459510786
-    },
-    "7.04474": {
-      "shield_price": 111.42950273452396,
-      "prdPortMV": 0.04974199522575001
-    },
-    "6.76891": {
-      "shield_price": 113.99813013016063,
-      "prdPortMV": 0.05088862738792427
-    },
-    "6.49308": {
-      "shield_price": 116.56675752579729,
-      "prdPortMV": 0.05203525955009853
-    },
-    "6.21725": {
-      "shield_price": 119.25770051170238,
-      "prdPortMV": 0.0532364932438049
-    },
-    "5.94141": {
-      "shield_price": 121.94864349760746,
-      "prdPortMV": 0.05443772693751127
-    },
-    "5.66558": {
-      "shield_price": 124.76190207378094,
-      "prdPortMV": 0.05569356216274974
-    },
-    "5.38975": {
-      "shield_price": 127.57516064995444,
-      "prdPortMV": 0.05694939738798821
-    },
-    "5.11392": {
-      "shield_price": 130.51073481639634,
-      "prdPortMV": 0.0582598341447588
-    },
-    "4.83809": {
-      "shield_price": 133.44630898283825,
-      "prdPortMV": 0.05957027090152938
-    },
-    "4.56226": {
-      "shield_price": 136.50419873954857,
-      "prdPortMV": 0.060935309189832074
-    },
-    "4.28642": {
-      "shield_price": 139.5620884962589,
-      "prdPortMV": 0.06230034747813476
-    },
-    "4.01059": {
-      "shield_price": 142.86460943350602,
-      "prdPortMV": 0.06377458882950165
-    },
-    "3.73476": {
-      "shield_price": 146.04481478048476,
-      "prdPortMV": 0.06519422864933647
-    },
-    "3.45893": {
-      "shield_price": 149.46965130800032,
-      "prdPortMV": 0.06672307153223547
-    },
-    "3.1831": {
-      "shield_price": 152.89448783551586,
-      "prdPortMV": 0.06825191441513448
-    },
-    "2.90727": {
-      "shield_price": 156.4416399532998,
-      "prdPortMV": 0.0698353588295656
-    },
-    "2.63143": {
-      "shield_price": 160.1111076613522,
-      "prdPortMV": 0.07147340477552884
-    },
-    "2.3556": {
-      "shield_price": 163.90289095967302,
-      "prdPortMV": 0.07316605225302418
-    },
-    "2.07977": {
-      "shield_price": 167.69467425799382,
-      "prdPortMV": 0.07485869973051952
-    },
-    "1.80394": {
-      "shield_price": 171.608773146583,
-      "prdPortMV": 0.07660594873954694
-    },
-    "1.52811": {
-      "shield_price": 175.76750321570904,
-      "prdPortMV": 0.0784624008116386
-    },
-    "1.25228": {
-      "shield_price": 179.9262332848351,
-      "prdPortMV": 0.08031885288373028
-    },
-    "0.976444": {
-      "shield_price": 184.20727894422953,
-      "prdPortMV": 0.08222990648735404
-    },
-    "0.700612": {
-      "shield_price": 188.61064019389238,
-      "prdPortMV": 0.0841955616225099
-    },
-    "0.424781": {
-      "shield_price": 193.25863262409206,
-      "prdPortMV": 0.08627041982073
-    },
-    "0.148949": {
-      "shield_price": 197.90662505429174,
-      "prdPortMV": 0.08834527801895008
-    }
+      "18.63": {
+          "shield_price": 31.850679243550786,
+          "percentage_portfolio_market_value": 0.013667172904125504,
+          "diy_price": 133.0,
+          "diy_percentage": 0.057070493924136705
+      },
+      "17.25": {
+          "shield_price": 36.12184312678556,
+          "percentage_portfolio_market_value": 0.015499935554104017,
+          "diy_price": 149.75,
+          "diy_percentage": 0.06425794334691332
+      },
+      "16.97": {
+          "shield_price": 37.09810915723923,
+          "percentage_portfolio_market_value": 0.015918852731241967,
+          "diy_price": 152.45,
+          "diy_percentage": 0.0654165172837191
+      },
+      "16.7": {
+          "shield_price": 38.074375187692894,
+          "percentage_portfolio_market_value": 0.01633776990837991,
+          "diy_price": 155.15,
+          "diy_percentage": 0.06657509122052488
+      },
+      "16.42": {
+          "shield_price": 39.05064121814656,
+          "percentage_portfolio_market_value": 0.01675668708551786,
+          "diy_price": 167.65,
+          "diy_percentage": 0.07193885944647758
+      },
+      "16.15": {
+          "shield_price": 40.02690724860022,
+          "percentage_portfolio_market_value": 0.017175604262655804,
+          "diy_price": 168.25,
+          "diy_percentage": 0.07219632032132331
+      },
+      "15.87": {
+          "shield_price": 41.125206532860595,
+          "percentage_portfolio_market_value": 0.017646886086935997,
+          "diy_price": 169.05,
+          "diy_percentage": 0.07253960148778428
+      },
+      "15.6": {
+          "shield_price": 42.10147256331426,
+          "percentage_portfolio_market_value": 0.018065803264073945,
+          "diy_price": 174.4,
+          "diy_percentage": 0.07483529428849203
+      },
+      "15.32": {
+          "shield_price": 43.19977184757463,
+          "percentage_portfolio_market_value": 0.01853708508835413,
+          "diy_price": 175.2,
+          "diy_percentage": 0.075178575454953
+      },
+      "15.04": {
+          "shield_price": 44.298071131835,
+          "percentage_portfolio_market_value": 0.019008366912634325,
+          "diy_price": 178.25,
+          "diy_percentage": 0.07648733490208547
+      },
+      "14.77": {
+          "shield_price": 45.51840366990208,
+          "percentage_portfolio_market_value": 0.019532013384056756,
+          "diy_price": 191.85000000000002,
+          "diy_percentage": 0.082323114731922
+      },
+      "14.49": {
+          "shield_price": 46.61670295416245,
+          "percentage_portfolio_market_value": 0.020003295208336942,
+          "diy_price": 196.0,
+          "diy_percentage": 0.08410388578293829
+      },
+      "14.22": {
+          "shield_price": 47.83703549222953,
+          "percentage_portfolio_market_value": 0.020526941679759377,
+          "diy_price": 196.8,
+          "diy_percentage": 0.08444716694939926
+      },
+      "13.94": {
+          "shield_price": 49.05736803029661,
+          "percentage_portfolio_market_value": 0.02105058815118181,
+          "diy_price": 199.2,
+          "diy_percentage": 0.08547701044878217
+      },
+      "13.66": {
+          "shield_price": 50.3997338221704,
+          "percentage_portfolio_market_value": 0.02162659926974649,
+          "diy_price": 205.1,
+          "diy_percentage": 0.08800870905143185
+      },
+      "13.39": {
+          "shield_price": 51.62006636023749,
+          "percentage_portfolio_market_value": 0.022150245741168924,
+          "diy_price": 217.29999999999998,
+          "diy_percentage": 0.09324374683996169
+      },
+      "13.11": {
+          "shield_price": 52.96243215211127,
+          "percentage_portfolio_market_value": 0.022726256859733597,
+          "diy_price": 218.5,
+          "diy_percentage": 0.09375866858965315
+      },
+      "12.84": {
+          "shield_price": 54.30479794398506,
+          "percentage_portfolio_market_value": 0.023302267978298274,
+          "diy_price": 224.2,
+          "diy_percentage": 0.09620454690068758
+      },
+      "12.56": {
+          "shield_price": 55.76919698966556,
+          "percentage_portfolio_market_value": 0.023930643744005196,
+          "diy_price": 228.5,
+          "diy_percentage": 0.09804968317041532
+      },
+      "12.29": {
+          "shield_price": 57.111562781539334,
+          "percentage_portfolio_market_value": 0.024506654862569865,
+          "diy_price": 229.39999999999998,
+          "diy_percentage": 0.09843587448268391
+      },
+      "12.01": {
+          "shield_price": 58.575961827219835,
+          "percentage_portfolio_market_value": 0.025135030628276787,
+          "diy_price": 234.25000000000003,
+          "diy_percentage": 0.10051701655435355
+      },
+      "11.73": {
+          "shield_price": 60.162394126707035,
+          "percentage_portfolio_market_value": 0.025815771041125948,
+          "diy_price": 248.25000000000003,
+          "diy_percentage": 0.10652443696742056
+      },
+      "11.46": {
+          "shield_price": 61.626793172387536,
+          "percentage_portfolio_market_value": 0.02644414680683287,
+          "diy_price": 253.15,
+          "diy_percentage": 0.10862703411199404
+      },
+      "11.18": {
+          "shield_price": 63.213225471874736,
+          "percentage_portfolio_market_value": 0.027124887219682033,
+          "diy_price": 254.25000000000003,
+          "diy_percentage": 0.10909904571587786
+      },
+      "10.91": {
+          "shield_price": 64.79965777136194,
+          "percentage_portfolio_market_value": 0.027805627632531194,
+          "diy_price": 258.3,
+          "diy_percentage": 0.11083690662108654
+      },
+      "10.63": {
+          "shield_price": 66.50812332465586,
+          "percentage_portfolio_market_value": 0.028538732692522602,
+          "diy_price": 259.5,
+          "diy_percentage": 0.111351828370778
+      },
+      "10.35": {
+          "shield_price": 68.09455562414306,
+          "percentage_portfolio_market_value": 0.029219473105371766,
+          "diy_price": 269.25,
+          "diy_percentage": 0.11553556758702109
+      },
+      "10.08": {
+          "shield_price": 69.92505443124368,
+          "percentage_portfolio_market_value": 0.030004942812505417,
+          "diy_price": 285.19999999999993,
+          "diy_percentage": 0.12237973584333674
+      },
+      "9.8": {
+          "shield_price": 71.6335199845376,
+          "percentage_portfolio_market_value": 0.030738047872496826,
+          "diy_price": 288.4,
+          "diy_percentage": 0.12375286050918062
+      },
+      "9.53": {
+          "shield_price": 73.46401879163821,
+          "percentage_portfolio_market_value": 0.03152351757963047,
+          "diy_price": 289.9,
+          "diy_percentage": 0.12439651269629495
+      },
+      "9.25": {
+          "shield_price": 75.29451759873884,
+          "percentage_portfolio_market_value": 0.032308987286764124,
+          "diy_price": 295.4,
+          "diy_percentage": 0.12675657071571414
+      },
+      "8.98": {
+          "shield_price": 77.24704965964617,
+          "percentage_portfolio_market_value": 0.03314682164104002,
+          "diy_price": 295.4,
+          "diy_percentage": 0.12675657071571414
+      },
+      "8.7": {
+          "shield_price": 79.1995817205535,
+          "percentage_portfolio_market_value": 0.033984655995315916,
+          "diy_price": 317.35,
+          "diy_percentage": 0.1361753477204871
+      },
+      "8.42": {
+          "shield_price": 81.15211378146083,
+          "percentage_portfolio_market_value": 0.034822490349591805,
+          "diy_price": 326.0,
+          "diy_percentage": 0.13988707533284633
+      },
+      "8.15": {
+          "shield_price": 83.22667909617485,
+          "percentage_portfolio_market_value": 0.035712689351009935,
+          "diy_price": 330.0,
+          "diy_percentage": 0.1416034811651512
+      },
+      "7.87": {
+          "shield_price": 85.30124441088888,
+          "percentage_portfolio_market_value": 0.03660288835242807,
+          "diy_price": 335.15,
+          "diy_percentage": 0.1438133536742437
+      },
+      "7.6": {
+          "shield_price": 87.49784297940963,
+          "percentage_portfolio_market_value": 0.03754545200098845,
+          "diy_price": 344.5,
+          "diy_percentage": 0.14782545230725636
+      },
+      "7.32": {
+          "shield_price": 89.69444154793037,
+          "percentage_portfolio_market_value": 0.03848801564954883,
+          "diy_price": 349.95,
+          "diy_percentage": 0.15016405525377172
+      },
+      "7.04": {
+          "shield_price": 92.01307337025783,
+          "percentage_portfolio_market_value": 0.03948294394525145,
+          "diy_price": 358.2,
+          "diy_percentage": 0.1537041422829005
+      },
+      "6.77": {
+          "shield_price": 94.33170519258529,
+          "percentage_portfolio_market_value": 0.04047787224095408,
+          "diy_price": 369.45,
+          "diy_percentage": 0.15853153368625794
+      },
+      "6.49": {
+          "shield_price": 96.65033701491274,
+          "percentage_portfolio_market_value": 0.0414728005366567,
+          "diy_price": 379.95,
+          "diy_percentage": 0.1630370989960582
+      },
+      "6.22": {
+          "shield_price": 99.09100209104687,
+          "percentage_portfolio_market_value": 0.04252009347950156,
+          "diy_price": 383.95,
+          "diy_percentage": 0.16475350482836307
+      },
+      "5.94": {
+          "shield_price": 101.65370042098776,
+          "percentage_portfolio_market_value": 0.04361975106948868,
+          "diy_price": 383.95,
+          "diy_percentage": 0.16475350482836307
+      },
+      "5.67": {
+          "shield_price": 104.21639875092862,
+          "percentage_portfolio_market_value": 0.04471940865947578,
+          "diy_price": 391.8,
+          "diy_percentage": 0.16812195127426138
+      },
+      "5.39": {
+          "shield_price": 106.9011303346762,
+          "percentage_portfolio_market_value": 0.04587143089660514,
+          "diy_price": 402.90000000000003,
+          "diy_percentage": 0.17288497745890735
+      },
+      "5.11": {
+          "shield_price": 109.58586191842379,
+          "percentage_portfolio_market_value": 0.047023453133734495,
+          "diy_price": 407.15000000000003,
+          "diy_percentage": 0.17470865865573126
+      },
+      "4.84": {
+          "shield_price": 112.39262675597807,
+          "percentage_portfolio_market_value": 0.04822784001800609,
+          "diy_price": 426.25,
+          "diy_percentage": 0.18290449650498697
+      },
+      "4.56": {
+          "shield_price": 115.19939159353234,
+          "percentage_portfolio_market_value": 0.049432226902277686,
+          "diy_price": 432.90000000000003,
+          "diy_percentage": 0.18575802120119383
+      },
+      "4.29": {
+          "shield_price": 118.12818968489333,
+          "percentage_portfolio_market_value": 0.05068897843369152,
+          "diy_price": 437.05,
+          "diy_percentage": 0.1875387922522101
+      },
+      "4.01": {
+          "shield_price": 121.17902103006104,
+          "percentage_portfolio_market_value": 0.0519980946122476,
+          "diy_price": 449.2,
+          "diy_percentage": 0.19275237496783615
+      },
+      "3.73": {
+          "shield_price": 124.22985237522873,
+          "percentage_portfolio_market_value": 0.05330721079080369,
+          "diy_price": 453.5,
+          "diy_percentage": 0.19459751123756386
+      },
+      "3.46": {
+          "shield_price": 127.40271697420314,
+          "percentage_portfolio_market_value": 0.054668691616502015,
+          "diy_price": 458.0,
+          "diy_percentage": 0.19652846779890681
+      },
+      "3.18": {
+          "shield_price": 130.69761482698428,
+          "percentage_portfolio_market_value": 0.0560825370893426,
+          "diy_price": 468.34999999999997,
+          "diy_percentage": 0.20096966788999565
+      },
+      "2.91": {
+          "shield_price": 134.1145459335721,
+          "percentage_portfolio_market_value": 0.057548747209325395,
+          "diy_price": 491.9,
+          "diy_percentage": 0.21107500722769051
+      },
+      "2.63": {
+          "shield_price": 137.6535102939666,
+          "percentage_portfolio_market_value": 0.059067321976450454,
+          "diy_price": 498.80000000000007,
+          "diy_percentage": 0.21403580728841642
+      },
+      "2.36": {
+          "shield_price": 141.31450790816785,
+          "percentage_portfolio_market_value": 0.06063826139071775,
+          "diy_price": 503.6,
+          "diy_percentage": 0.21609549428718228
+      },
+      "2.08": {
+          "shield_price": 144.9755055223691,
+          "percentage_portfolio_market_value": 0.06220920080498506,
+          "diy_price": 508.45000000000005,
+          "diy_percentage": 0.21817663635885193
+      },
+      "1.8": {
+          "shield_price": 148.88056964418374,
+          "percentage_portfolio_market_value": 0.06388486951353683,
+          "diy_price": 524.4,
+          "diy_percentage": 0.22502080461516755
+      },
+      "1.53": {
+          "shield_price": 152.9076670198051,
+          "percentage_portfolio_market_value": 0.06561290286923087,
+          "diy_price": 532.8,
+          "diy_percentage": 0.22862525686300775
+      },
+      "1.25": {
+          "shield_price": 156.93476439542647,
+          "percentage_portfolio_market_value": 0.06734093622492489,
+          "diy_price": 537.7,
+          "diy_percentage": 0.23072785400758125
+      },
+      "0.98": {
+          "shield_price": 161.20592827866128,
+          "percentage_portfolio_market_value": 0.06917369887490342,
+          "diy_price": 542.85,
+          "diy_percentage": 0.23293772651667374
+      },
+      "0.7": {
+          "shield_price": 165.59912541570276,
+          "percentage_portfolio_market_value": 0.07105882617202418,
+          "diy_price": 568.85,
+          "diy_percentage": 0.24409436442665536
+      },
+      "0.42": {
+          "shield_price": 170.23638906035765,
+          "percentage_portfolio_market_value": 0.07304868276342942,
+          "diy_price": 576.7,
+          "diy_percentage": 0.24746281087255367
+      },
+      "0.15": {
+          "shield_price": 174.87365270501255,
+          "percentage_portfolio_market_value": 0.07503853935483466,
+          "diy_price": 584.2,
+          "diy_percentage": 0.25068107180812527
+      }
   },
   "half": {
-    "19.733": {
-      "shield_price": 82.31839225064175,
-      "prdPortMV": 0.03674683072110841
-    },
-    "19.4572": {
-      "shield_price": 83.78617933386269,
-      "prdPortMV": 0.0374020490994937
-    },
-    "19.1813": {
-      "shield_price": 85.37628200735206,
-      "prdPortMV": 0.038111869009411097
-    },
-    "18.9055": {
-      "shield_price": 86.84406909057302,
-      "prdPortMV": 0.03876708738779639
-    },
-    "18.6297": {
-      "shield_price": 88.43417176406238,
-      "prdPortMV": 0.03947690729771378
-    },
-    "18.3538": {
-      "shield_price": 90.14659002782015,
-      "prdPortMV": 0.04024132873916329
-    },
-    "18.078": {
-      "shield_price": 91.73669270130952,
-      "prdPortMV": 0.0409511486490807
-    },
-    "17.8022": {
-      "shield_price": 93.44911096506729,
-      "prdPortMV": 0.041715570090530195
-    },
-    "17.5263": {
-      "shield_price": 95.03921363855666,
-      "prdPortMV": 0.0424253900004476
-    },
-    "17.2505": {
-      "shield_price": 96.75163190231444,
-      "prdPortMV": 0.043189811441897104
-    },
-    "16.9747": {
-      "shield_price": 98.58636575634064,
-      "prdPortMV": 0.04400883441487872
-    },
-    "16.6988": {
-      "shield_price": 100.2987840200984,
-      "prdPortMV": 0.044773255856328215
-    },
-    "16.423": {
-      "shield_price": 102.13351787412459,
-      "prdPortMV": 0.045592278829309836
-    },
-    "16.1472": {
-      "shield_price": 103.96825172815079,
-      "prdPortMV": 0.04641130180229145
-    },
-    "15.8714": {
-      "shield_price": 105.80298558217699,
-      "prdPortMV": 0.047230324775273065
-    },
-    "15.5955": {
-      "shield_price": 107.76003502647158,
-      "prdPortMV": 0.048103949279786784
-    },
-    "15.3197": {
-      "shield_price": 109.59476888049778,
-      "prdPortMV": 0.0489229722527684
-    },
-    "15.0439": {
-      "shield_price": 111.6741339150608,
-      "prdPortMV": 0.049851198288814236
-    },
-    "14.768": {
-      "shield_price": 113.63118335935539,
-      "prdPortMV": 0.05072482279332795
-    },
-    "14.4922": {
-      "shield_price": 115.58823280364999,
-      "prdPortMV": 0.05159844729784167
-    },
-    "14.2164": {
-      "shield_price": 117.667597838213,
-      "prdPortMV": 0.0525266733338875
-    },
-    "13.9405": {
-      "shield_price": 119.74696287277602,
-      "prdPortMV": 0.05345489936993333
-    },
-    "13.6647": {
-      "shield_price": 121.82632790733905,
-      "prdPortMV": 0.054383125405979164
-    },
-    "13.3889": {
-      "shield_price": 124.02800853217047,
-      "prdPortMV": 0.0553659529735571
-    },
-    "13.113": {
-      "shield_price": 126.1073735667335,
-      "prdPortMV": 0.05629417900960293
-    },
-    "12.8372": {
-      "shield_price": 128.3090541915649,
-      "prdPortMV": 0.057277006577180864
-    },
-    "12.5614": {
-      "shield_price": 130.63305040666475,
-      "prdPortMV": 0.0583144356762909
-    },
-    "12.2855": {
-      "shield_price": 132.83473103149618,
-      "prdPortMV": 0.05929726324386884
-    },
-    "12.0097": {
-      "shield_price": 135.15872724659604,
-      "prdPortMV": 0.06033469234297889
-    },
-    "11.7339": {
-      "shield_price": 137.48272346169588,
-      "prdPortMV": 0.06137212144208894
-    },
-    "11.458": {
-      "shield_price": 139.9290352670641,
-      "prdPortMV": 0.06246415207273107
-    },
-    "11.1822": {
-      "shield_price": 142.25303148216398,
-      "prdPortMV": 0.06350158117184113
-    },
-    "10.9064": {
-      "shield_price": 144.69934328753223,
-      "prdPortMV": 0.06459361180248328
-    },
-    "10.6306": {
-      "shield_price": 147.14565509290045,
-      "prdPortMV": 0.06568564243312543
-    },
-    "10.3547": {
-      "shield_price": 149.71428248853715,
-      "prdPortMV": 0.0668322745952997
-    },
-    "10.0789": {
-      "shield_price": 152.2829098841738,
-      "prdPortMV": 0.06797890675747394
-    },
-    "9.80306": {
-      "shield_price": 154.8515372798105,
-      "prdPortMV": 0.06912553891964822
-    },
-    "9.52722": {
-      "shield_price": 157.42016467544713,
-      "prdPortMV": 0.07027217108182246
-    },
-    "9.25139": {
-      "shield_price": 160.1111076613522,
-      "prdPortMV": 0.07147340477552884
-    },
-    "8.97556": {
-      "shield_price": 162.8020506472573,
-      "prdPortMV": 0.0726746384692352
-    },
-    "8.69973": {
-      "shield_price": 165.61530922343078,
-      "prdPortMV": 0.07393047369447367
-    },
-    "8.4239": {
-      "shield_price": 168.30625220933587,
-      "prdPortMV": 0.07513170738818005
-    },
-    "8.14807": {
-      "shield_price": 171.11951078550936,
-      "prdPortMV": 0.07638754261341853
-    },
-    "7.87223": {
-      "shield_price": 174.05508495195127,
-      "prdPortMV": 0.0776979793701891
-    },
-    "7.5964": {
-      "shield_price": 176.86834352812477,
-      "prdPortMV": 0.07895381459542757
-    },
-    "7.32057": {
-      "shield_price": 179.80391769456665,
-      "prdPortMV": 0.08026425135219815
-    },
-    "7.04474": {
-      "shield_price": 182.86180745127697,
-      "prdPortMV": 0.08162928964050084
-    },
-    "6.76891": {
-      "shield_price": 185.9196972079873,
-      "prdPortMV": 0.08299432792880354
-    },
-    "6.49308": {
-      "shield_price": 188.9775869646976,
-      "prdPortMV": 0.08435936621710621
-    },
-    "6.21725": {
-      "shield_price": 192.15779231167636,
-      "prdPortMV": 0.08577900603694102
-    },
-    "5.94141": {
-      "shield_price": 195.33799765865507,
-      "prdPortMV": 0.08719864585677582
-    },
-    "5.66558": {
-      "shield_price": 198.5182030056338,
-      "prdPortMV": 0.08861828567661062
-    },
-    "5.38975": {
-      "shield_price": 201.82072394288096,
-      "prdPortMV": 0.09009252702797754
-    },
-    "5.11392": {
-      "shield_price": 205.12324488012808,
-      "prdPortMV": 0.09156676837934442
-    },
-    "4.83809": {
-      "shield_price": 208.54808140764365,
-      "prdPortMV": 0.09309561126224344
-    },
-    "4.56226": {
-      "shield_price": 211.9729179351592,
-      "prdPortMV": 0.09462445414514245
-    },
-    "4.28642": {
-      "shield_price": 215.52007005294317,
-      "prdPortMV": 0.09620789855957357
-    },
-    "4.01059": {
-      "shield_price": 219.06722217072715,
-      "prdPortMV": 0.0977913429740047
-    },
-    "3.73476": {
-      "shield_price": 222.73668987877952,
-      "prdPortMV": 0.09942938891996791
-    },
-    "3.45893": {
-      "shield_price": 226.4061575868319,
-      "prdPortMV": 0.10106743486593114
-    },
-    "3.1831": {
-      "shield_price": 230.1979408851527,
-      "prdPortMV": 0.10276008234342647
-    },
-    "2.90727": {
-      "shield_price": 234.1120397737419,
-      "prdPortMV": 0.10450733135245394
-    },
-    "2.63143": {
-      "shield_price": 238.0261386623311,
-      "prdPortMV": 0.10625458036148137
-    },
-    "2.3556": {
-      "shield_price": 242.06255314118872,
-      "prdPortMV": 0.10805643090204092
-    },
-    "2.07977": {
-      "shield_price": 246.09896762004635,
-      "prdPortMV": 0.10985828144260047
-    },
-    "1.80394": {
-      "shield_price": 250.25769768917237,
-      "prdPortMV": 0.11171473351469213
-    },
-    "1.52811": {
-      "shield_price": 254.5387433485668,
-      "prdPortMV": 0.11362578711831589
-    },
-    "1.25228": {
-      "shield_price": 258.8197890079613,
-      "prdPortMV": 0.11553684072193966
-    },
-    "0.976444": {
-      "shield_price": 263.2231502576241,
-      "prdPortMV": 0.11750249585709553
-    },
-    "0.700612": {
-      "shield_price": 267.7488270975554,
-      "prdPortMV": 0.11952275252378353
-    },
-    "0.424781": {
-      "shield_price": 272.39681952775504,
-      "prdPortMV": 0.12159761072200359
-    },
-    "0.148949": {
-      "shield_price": 277.0448119579547,
-      "prdPortMV": 0.12367246892022368
-    }
+      "19.73": {
+          "shield_price": 82.12837981191448,
+          "percentage_portfolio_market_value": 0.03524140752672975,
+          "diy_price": 239.45000000000002,
+          "diy_percentage": 0.10274834413634987
+      },
+      "19.46": {
+          "shield_price": 83.59277885759496,
+          "percentage_portfolio_market_value": 0.03586978329243667,
+          "diy_price": 239.45000000000002,
+          "diy_percentage": 0.10274834413634987
+      },
+      "19.18": {
+          "shield_price": 85.17921115708218,
+          "percentage_portfolio_market_value": 0.03655052370528583,
+          "diy_price": 246.29999999999998,
+          "diy_percentage": 0.10568768912417195
+      },
+      "18.91": {
+          "shield_price": 86.64361020276267,
+          "percentage_portfolio_market_value": 0.037178899470992746,
+          "diy_price": 252.35,
+          "diy_percentage": 0.10828375294553305
+      },
+      "18.63": {
+          "shield_price": 88.23004250224989,
+          "percentage_portfolio_market_value": 0.03785963988384192,
+          "diy_price": 256.95000000000005,
+          "diy_percentage": 0.11025761965268366
+      },
+      "18.35": {
+          "shield_price": 89.93850805554379,
+          "percentage_portfolio_market_value": 0.03859274494383332,
+          "diy_price": 258.15000000000003,
+          "diy_percentage": 0.11077254140237511
+      },
+      "18.08": {
+          "shield_price": 91.52494035503099,
+          "percentage_portfolio_market_value": 0.039273485356682486,
+          "diy_price": 265.30000000000007,
+          "diy_percentage": 0.11384061682762005
+      },
+      "17.8": {
+          "shield_price": 93.2334059083249,
+          "percentage_portfolio_market_value": 0.040006590416673884,
+          "diy_price": 270.80000000000007,
+          "diy_percentage": 0.11620067484703923
+      },
+      "17.53": {
+          "shield_price": 94.81983820781211,
+          "percentage_portfolio_market_value": 0.040687330829523055,
+          "diy_price": 279.85,
+          "diy_percentage": 0.12008404304262899
+      },
+      "17.25": {
+          "shield_price": 96.52830376110603,
+          "percentage_portfolio_market_value": 0.04142043588951447,
+          "diy_price": 283.3,
+          "diy_percentage": 0.12156444307299193
+      },
+      "16.97": {
+          "shield_price": 98.35880256820664,
+          "percentage_portfolio_market_value": 0.04220590559664811,
+          "diy_price": 287.1,
+          "diy_percentage": 0.12319502861368155
+      },
+      "16.7": {
+          "shield_price": 100.06726812150055,
+          "percentage_portfolio_market_value": 0.04293901065663951,
+          "diy_price": 293.35,
+          "diy_percentage": 0.1258769127266579
+      },
+      "16.42": {
+          "shield_price": 101.89776692860117,
+          "percentage_portfolio_market_value": 0.04372448036377317,
+          "diy_price": 300.9,
+          "diy_percentage": 0.12911662873513333
+      },
+      "16.15": {
+          "shield_price": 103.7282657357018,
+          "percentage_portfolio_market_value": 0.044509950070906815,
+          "diy_price": 304.8,
+          "diy_percentage": 0.13079012442163057
+      },
+      "15.87": {
+          "shield_price": 105.55876454280242,
+          "percentage_portfolio_market_value": 0.04529541977804047,
+          "diy_price": 305.9,
+          "diy_percentage": 0.1312621360255144
+      },
+      "15.6": {
+          "shield_price": 107.51129660370975,
+          "percentage_portfolio_market_value": 0.04613325413231636,
+          "diy_price": 321.65,
+          "diy_percentage": 0.13802048399021483
+      },
+      "15.32": {
+          "shield_price": 109.34179541081038,
+          "percentage_portfolio_market_value": 0.04691872383945001,
+          "diy_price": 322.85,
+          "diy_percentage": 0.13853540573990628
+      },
+      "15.04": {
+          "shield_price": 111.41636072552441,
+          "percentage_portfolio_market_value": 0.04780892284086815,
+          "diy_price": 327.1,
+          "diy_percentage": 0.1403590869367302
+      },
+      "14.77": {
+          "shield_price": 113.36889278643172,
+          "percentage_portfolio_market_value": 0.04864675719514403,
+          "diy_price": 334.05000000000007,
+          "diy_percentage": 0.1433413420703599
+      },
+      "14.49": {
+          "shield_price": 115.32142484733905,
+          "percentage_portfolio_market_value": 0.04948459154941992,
+          "diy_price": 339.25,
+          "diy_percentage": 0.1455726696523562
+      },
+      "14.22": {
+          "shield_price": 117.39599016205308,
+          "percentage_portfolio_market_value": 0.05037479055083806,
+          "diy_price": 346.6,
+          "diy_percentage": 0.14872656536921638
+      },
+      "13.94": {
+          "shield_price": 119.47055547676712,
+          "percentage_portfolio_market_value": 0.051264989552256196,
+          "diy_price": 347.9,
+          "diy_percentage": 0.14928439726471548
+      },
+      "13.66": {
+          "shield_price": 121.54512079148117,
+          "percentage_portfolio_market_value": 0.05215518855367434,
+          "diy_price": 365.1,
+          "diy_percentage": 0.15666494234362638
+      },
+      "13.39": {
+          "shield_price": 123.74171936000191,
+          "percentage_portfolio_market_value": 0.05309775220223472,
+          "diy_price": 366.40000000000003,
+          "diy_percentage": 0.15722277423912545
+      },
+      "13.11": {
+          "shield_price": 125.81628467471594,
+          "percentage_portfolio_market_value": 0.05398795120365286,
+          "diy_price": 373.65,
+          "diy_percentage": 0.16033375981017803
+      },
+      "12.84": {
+          "shield_price": 128.0128832432367,
+          "percentage_portfolio_market_value": 0.05493051485221324,
+          "diy_price": 383.0,
+          "diy_percentage": 0.16434585844319066
+      },
+      "12.56": {
+          "shield_price": 130.33151506556413,
+          "percentage_portfolio_market_value": 0.05592544314791585,
+          "diy_price": 384.4,
+          "diy_percentage": 0.16494660048449733
+      },
+      "12.29": {
+          "shield_price": 132.52811363408486,
+          "percentage_portfolio_market_value": 0.056868006796476224,
+          "diy_price": 392.35,
+          "diy_percentage": 0.16835795707620327
+      },
+      "12.01": {
+          "shield_price": 134.84674545641235,
+          "percentage_portfolio_market_value": 0.057862935092178866,
+          "diy_price": 396.55000000000007,
+          "diy_percentage": 0.17016018320012338
+      },
+      "11.73": {
+          "shield_price": 137.16537727873978,
+          "percentage_portfolio_market_value": 0.05885786338788148,
+          "diy_price": 404.70000000000005,
+          "diy_percentage": 0.17365736008344454
+      },
+      "11.46": {
+          "shield_price": 139.60604235487395,
+          "percentage_portfolio_market_value": 0.05990515633072635,
+          "diy_price": 414.70000000000005,
+          "diy_percentage": 0.17794837466420668
+      },
+      "11.18": {
+          "shield_price": 141.9246741772014,
+          "percentage_portfolio_market_value": 0.06090008462642898,
+          "diy_price": 426.1500000000001,
+          "diy_percentage": 0.18286158635917937
+      },
+      "10.91": {
+          "shield_price": 144.36533925333555,
+          "percentage_portfolio_market_value": 0.061947377569273834,
+          "diy_price": 433.05000000000007,
+          "diy_percentage": 0.18582238641990526
+      },
+      "10.63": {
+          "shield_price": 146.80600432946972,
+          "percentage_portfolio_market_value": 0.06299467051211871,
+          "diy_price": 441.54999999999995,
+          "diy_percentage": 0.18946974881355308
+      },
+      "10.35": {
+          "shield_price": 149.3687026594106,
+          "percentage_portfolio_market_value": 0.06409432810210582,
+          "diy_price": 445.79999999999995,
+          "diy_percentage": 0.19129343001037702
+      },
+      "10.08": {
+          "shield_price": 151.93140098935143,
+          "percentage_portfolio_market_value": 0.0651939856920929,
+          "diy_price": 447.5,
+          "diy_percentage": 0.19202290248910658
+      },
+      "9.8": {
+          "shield_price": 154.49409931929233,
+          "percentage_portfolio_market_value": 0.06629364328208004,
+          "diy_price": 456.65,
+          "diy_percentage": 0.19594918083050397
+      },
+      "9.53": {
+          "shield_price": 157.05679764923318,
+          "percentage_portfolio_market_value": 0.06739330087206713,
+          "diy_price": 458.25,
+          "diy_percentage": 0.19663574316342589
+      },
+      "9.25": {
+          "shield_price": 159.74152923298075,
+          "percentage_portfolio_market_value": 0.06854532310919649,
+          "diy_price": 481.35,
+          "diy_percentage": 0.2065479868449865
+      },
+      "8.98": {
+          "shield_price": 162.42626081672836,
+          "percentage_portfolio_market_value": 0.06969734534632585,
+          "diy_price": 482.95000000000005,
+          "diy_percentage": 0.20723454917790843
+      },
+      "8.7": {
+          "shield_price": 165.2330256542826,
+          "percentage_portfolio_market_value": 0.07090173223059744,
+          "diy_price": 496.85,
+          "diy_percentage": 0.21319905944516782
+      },
+      "8.42": {
+          "shield_price": 167.9177572380302,
+          "percentage_portfolio_market_value": 0.0720537544677268,
+          "diy_price": 501.2,
+          "diy_percentage": 0.21506565078779938
+      },
+      "8.15": {
+          "shield_price": 170.72452207558447,
+          "percentage_portfolio_market_value": 0.07325814135199839,
+          "diy_price": 503.0,
+          "diy_percentage": 0.21583803341233654
+      },
+      "7.87": {
+          "shield_price": 173.6533201669455,
+          "percentage_portfolio_market_value": 0.07451489288341223,
+          "diy_price": 514.65,
+          "diy_percentage": 0.22083706539892445
+      },
+      "7.6": {
+          "shield_price": 176.46008500449977,
+          "percentage_portfolio_market_value": 0.07571927976768383,
+          "diy_price": 519.1999999999999,
+          "diy_percentage": 0.2227894770331712
+      },
+      "7.32": {
+          "shield_price": 179.38888309586073,
+          "percentage_portfolio_market_value": 0.07697603129909766,
+          "diy_price": 531.8,
+          "diy_percentage": 0.22819615540493154
+      },
+      "7.04": {
+          "shield_price": 182.43971444102843,
+          "percentage_portfolio_market_value": 0.07828514747765375,
+          "diy_price": 543.6999999999999,
+          "diy_percentage": 0.2333024627560385
+      },
+      "6.77": {
+          "shield_price": 185.49054578619615,
+          "percentage_portfolio_market_value": 0.07959426365620983,
+          "diy_price": 559.0,
+          "diy_percentage": 0.23986771506460464
+      },
+      "6.49": {
+          "shield_price": 188.54137713136384,
+          "percentage_portfolio_market_value": 0.0809033798347659,
+          "diy_price": 560.9,
+          "diy_percentage": 0.24068300783494945
+      },
+      "6.22": {
+          "shield_price": 191.71424173033827,
+          "percentage_portfolio_market_value": 0.08226486066046426,
+          "diy_price": 570.8000000000001,
+          "diy_percentage": 0.244931112269904
+      },
+      "5.94": {
+          "shield_price": 194.88710632931267,
+          "percentage_portfolio_market_value": 0.08362634148616256,
+          "diy_price": 575.95,
+          "diy_percentage": 0.2471409847789965
+      },
+      "5.67": {
+          "shield_price": 198.05997092828707,
+          "percentage_portfolio_market_value": 0.08498782231186089,
+          "diy_price": 582.65,
+          "diy_percentage": 0.25001596454810715
+      },
+      "5.39": {
+          "shield_price": 201.35486878106818,
+          "percentage_portfolio_market_value": 0.08640166778470146,
+          "diy_price": 592.55,
+          "diy_percentage": 0.2542640689830617
+      },
+      "5.11": {
+          "shield_price": 204.6497666338493,
+          "percentage_portfolio_market_value": 0.08781551325754204,
+          "diy_price": 592.55,
+          "diy_percentage": 0.2542640689830617
+      },
+      "4.84": {
+          "shield_price": 208.06669774043715,
+          "percentage_portfolio_market_value": 0.08928172337752485,
+          "diy_price": 615.15,
+          "diy_percentage": 0.2639617619355841
+      },
+      "4.56": {
+          "shield_price": 211.48362884702493,
+          "percentage_portfolio_market_value": 0.09074793349750765,
+          "diy_price": 617.45,
+          "diy_percentage": 0.26494869528915943
+      },
+      "4.29": {
+          "shield_price": 215.0225932074195,
+          "percentage_portfolio_market_value": 0.09226650826463272,
+          "diy_price": 626.75,
+          "diy_percentage": 0.26893933884926824
+      },
+      "4.01": {
+          "shield_price": 218.56155756781402,
+          "percentage_portfolio_market_value": 0.09378508303175777,
+          "diy_price": 643.4,
+          "diy_percentage": 0.27608387812623725
+      },
+      "3.73": {
+          "shield_price": 222.22255518201527,
+          "percentage_portfolio_market_value": 0.09535602244602508,
+          "diy_price": 647.95,
+          "diy_percentage": 0.278036289760484
+      },
+      "3.46": {
+          "shield_price": 225.88355279621652,
+          "percentage_portfolio_market_value": 0.09692696186029238,
+          "diy_price": 652.6500000000001,
+          "diy_percentage": 0.28005306661344226
+      },
+      "3.18": {
+          "shield_price": 229.66658366422445,
+          "percentage_portfolio_market_value": 0.09855026592170192,
+          "diy_price": 655.6500000000001,
+          "diy_percentage": 0.2813403709876709
+      },
+      "2.91": {
+          "shield_price": 233.5716477860391,
+          "percentage_portfolio_market_value": 0.1002259346302537,
+          "diy_price": 685.35,
+          "diy_percentage": 0.2940846842925345
+      },
+      "2.63": {
+          "shield_price": 237.47671190785377,
+          "percentage_portfolio_market_value": 0.10190160333880548,
+          "diy_price": 687.95,
+          "diy_percentage": 0.2952003480835327
+      },
+      "2.36": {
+          "shield_price": 241.5038092834751,
+          "percentage_portfolio_market_value": 0.1036296366944995,
+          "diy_price": 698.3,
+          "diy_percentage": 0.2996415481746215
+      },
+      "2.08": {
+          "shield_price": 245.5309066590965,
+          "percentage_portfolio_market_value": 0.10535767005019356,
+          "diy_price": 698.3,
+          "diy_percentage": 0.2996415481746215
+      },
+      "1.8": {
+          "shield_price": 249.68003728852457,
+          "percentage_portfolio_market_value": 0.10713806805302982,
+          "diy_price": 719.85,
+          "diy_percentage": 0.308888684596164
+      },
+      "1.53": {
+          "shield_price": 253.95120117175932,
+          "percentage_portfolio_market_value": 0.10897083070300832,
+          "diy_price": 728.6,
+          "diy_percentage": 0.31264332235433084
+      },
+      "1.25": {
+          "shield_price": 258.2223650549941,
+          "percentage_portfolio_market_value": 0.11080359335298684,
+          "diy_price": 728.6,
+          "diy_percentage": 0.31264332235433084
+      },
+      "0.98": {
+          "shield_price": 262.6155621920356,
+          "percentage_portfolio_market_value": 0.11268872065010761,
+          "diy_price": 739.0,
+          "diy_percentage": 0.3171059775183235
+      },
+      "0.7": {
+          "shield_price": 267.1307925828838,
+          "percentage_portfolio_market_value": 0.11462621259437063,
+          "diy_price": 766.6999999999999,
+          "diy_percentage": 0.32899208790703466
+      },
+      "0.42": {
+          "shield_price": 271.7680562275387,
+          "percentage_portfolio_market_value": 0.11661606918577584,
+          "diy_price": 773.4,
+          "diy_percentage": 0.33186706767614527
+      },
+      "0.15": {
+          "shield_price": 276.40531987219356,
+          "percentage_portfolio_market_value": 0.11860592577718108,
+          "diy_price": 775.9,
+          "diy_percentage": 0.3329398213213358
+      }
   },
   "year": {
-    "3.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "0.00": {
-      "shield_price": 0,
-      "prdPortMV": 0
-    },
-    "19.73": {
-      "shield_price": 155.34079964088411,
-      "prdPortMV": 0.06934394504577664
-    },
-    "19.45": {
-      "shield_price": 157.66479585598398,
-      "prdPortMV": 0.07038137414488668
-    },
-    "19.18": {
-      "shield_price": 159.9887920710838,
-      "prdPortMV": 0.07141880324399671
-    },
-    "18.90": {
-      "shield_price": 162.31278828618363,
-      "prdPortMV": 0.07245623234310677
-    },
-    "18.62": {
-      "shield_price": 164.75910009155191,
-      "prdPortMV": 0.07354826297374893
-    },
-    "18.35": {
-      "shield_price": 167.08309630665175,
-      "prdPortMV": 0.07458569207285898
-    },
-    "18.07": {
-      "shield_price": 169.52940811201998,
-      "prdPortMV": 0.07567772270350112
-    },
-    "17.80": {
-      "shield_price": 171.97571991738826,
-      "prdPortMV": 0.07676975333414328
-    },
-    "17.52": {
-      "shield_price": 174.4220317227565,
-      "prdPortMV": 0.07786178396478541
-    },
-    "17.25": {
-      "shield_price": 176.99065911839318,
-      "prdPortMV": 0.07900841612695969
-    },
-    "16.97": {
-      "shield_price": 179.43697092376144,
-      "prdPortMV": 0.08010044675760183
-    },
-    "16.69": {
-      "shield_price": 182.0055983193981,
-      "prdPortMV": 0.08124707891977609
-    },
-    "16.42": {
-      "shield_price": 184.57422571503474,
-      "prdPortMV": 0.08239371108195034
-    },
-    "16.14": {
-      "shield_price": 187.26516870093985,
-      "prdPortMV": 0.08359494477565674
-    },
-    "15.87": {
-      "shield_price": 189.8337960965765,
-      "prdPortMV": 0.08474157693783096
-    },
-    "15.59": {
-      "shield_price": 192.52473908248157,
-      "prdPortMV": 0.08594281063153734
-    },
-    "15.31": {
-      "shield_price": 195.21568206838668,
-      "prdPortMV": 0.08714404432524371
-    },
-    "15.04": {
-      "shield_price": 197.90662505429174,
-      "prdPortMV": 0.08834527801895008
-    },
-    "14.76": {
-      "shield_price": 200.71988363046523,
-      "prdPortMV": 0.08960111324418855
-    },
-    "14.49": {
-      "shield_price": 203.4108266163703,
-      "prdPortMV": 0.0908023469378949
-    },
-    "14.21": {
-      "shield_price": 206.2240851925438,
-      "prdPortMV": 0.09205818216313341
-    },
-    "13.94": {
-      "shield_price": 209.0373437687173,
-      "prdPortMV": 0.09331401738837186
-    },
-    "13.66": {
-      "shield_price": 211.9729179351592,
-      "prdPortMV": 0.09462445414514245
-    },
-    "13.38": {
-      "shield_price": 214.78617651133268,
-      "prdPortMV": 0.09588028937038091
-    },
-    "13.11": {
-      "shield_price": 217.7217506777746,
-      "prdPortMV": 0.0971907261271515
-    },
-    "12.83": {
-      "shield_price": 220.6573248442165,
-      "prdPortMV": 0.09850116288392209
-    },
-    "12.56": {
-      "shield_price": 223.5928990106584,
-      "prdPortMV": 0.09981159964069267
-    },
-    "12.28": {
-      "shield_price": 226.65078876736874,
-      "prdPortMV": 0.10117663792899537
-    },
-    "12.00": {
-      "shield_price": 229.70867852407906,
-      "prdPortMV": 0.10254167621729807
-    },
-    "11.73": {
-      "shield_price": 232.64425269052094,
-      "prdPortMV": 0.10385211297406864
-    },
-    "11.45": {
-      "shield_price": 235.82445803749968,
-      "prdPortMV": 0.10527175279390344
-    },
-    "11.18": {
-      "shield_price": 238.88234779421,
-      "prdPortMV": 0.10663679108220613
-    },
-    "10.90": {
-      "shield_price": 242.06255314118872,
-      "prdPortMV": 0.10805643090204092
-    },
-    "10.63": {
-      "shield_price": 245.24275848816745,
-      "prdPortMV": 0.10947607072187572
-    },
-    "10.35": {
-      "shield_price": 248.42296383514616,
-      "prdPortMV": 0.1108957105417105
-    },
-    "10.07": {
-      "shield_price": 251.60316918212493,
-      "prdPortMV": 0.11231535036154532
-    },
-    "9.80": {
-      "shield_price": 254.90569011937205,
-      "prdPortMV": 0.11378959171291221
-    },
-    "9.52": {
-      "shield_price": 258.2082110566192,
-      "prdPortMV": 0.11526383306427912
-    },
-    "9.25": {
-      "shield_price": 261.51073199386633,
-      "prdPortMV": 0.11673807441564601
-    },
-    "8.97": {
-      "shield_price": 264.8132529311135,
-      "prdPortMV": 0.11821231576701294
-    },
-    "8.69": {
-      "shield_price": 268.238089458629,
-      "prdPortMV": 0.11974115864991194
-    },
-    "8.42": {
-      "shield_price": 271.6629259861446,
-      "prdPortMV": 0.12127000153281096
-    },
-    "8.14": {
-      "shield_price": 275.08776251366015,
-      "prdPortMV": 0.12279884441570997
-    },
-    "7.87": {
-      "shield_price": 278.63491463144413,
-      "prdPortMV": 0.12438228883014109
-    },
-    "7.59": {
-      "shield_price": 282.1820667492281,
-      "prdPortMV": 0.12596573324457222
-    },
-    "7.32": {
-      "shield_price": 285.72921886701204,
-      "prdPortMV": 0.1275491776590033
-    },
-    "7.04": {
-      "shield_price": 289.276370984796,
-      "prdPortMV": 0.12913262207343446
-    },
-    "6.76": {
-      "shield_price": 292.9458386928484,
-      "prdPortMV": 0.13077066801939766
-    },
-    "6.49": {
-      "shield_price": 296.6153064009008,
-      "prdPortMV": 0.1324087139653609
-    },
-    "6.21": {
-      "shield_price": 300.40708969922156,
-      "prdPortMV": 0.13410136144285623
-    },
-    "5.94": {
-      "shield_price": 304.19887299754237,
-      "prdPortMV": 0.13579400892035157
-    },
-    "5.66": {
-      "shield_price": 307.9906562958632,
-      "prdPortMV": 0.13748665639784693
-    },
-    "5.38": {
-      "shield_price": 311.7824395941839,
-      "prdPortMV": 0.13917930387534222
-    },
-    "5.11": {
-      "shield_price": 315.6965384827732,
-      "prdPortMV": 0.1409265528843697
-    },
-    "4.83": {
-      "shield_price": 319.6106373713624,
-      "prdPortMV": 0.14267380189339715
-    },
-    "4.56": {
-      "shield_price": 323.64705185022,
-      "prdPortMV": 0.14447565243395669
-    },
-    "4.28": {
-      "shield_price": 327.6834663290776,
-      "prdPortMV": 0.14627750297451622
-    },
-    "4.01": {
-      "shield_price": 331.7198808079352,
-      "prdPortMV": 0.14807935351507578
-    },
-    "3.73": {
-      "shield_price": 335.87861087706125,
-      "prdPortMV": 0.14993580558716743
-    },
-    "3.45": {
-      "shield_price": 340.0373409461873,
-      "prdPortMV": 0.1517922576592591
-    },
-    "3.18": {
-      "shield_price": 344.31838660558174,
-      "prdPortMV": 0.15370331126288286
-    },
-    "2.90": {
-      "shield_price": 348.47711667470776,
-      "prdPortMV": 0.15555976333497454
-    },
-    "2.63": {
-      "shield_price": 352.88047792437067,
-      "prdPortMV": 0.1575254184701304
-    },
-    "2.35": {
-      "shield_price": 357.2838391740335,
-      "prdPortMV": 0.15949107360528628
-    },
-    "2.07": {
-      "shield_price": 361.68720042369637,
-      "prdPortMV": 0.16145672874044215
-    },
-    "1.80": {
-      "shield_price": 366.2128772636276,
-      "prdPortMV": 0.16347698540713013
-    },
-    "1.52": {
-      "shield_price": 370.73855410355884,
-      "prdPortMV": 0.16549724207381808
-    },
-    "1.25": {
-      "shield_price": 375.26423094349013,
-      "prdPortMV": 0.16751749874050606
-    },
-    "0.97": {
-      "shield_price": 379.9122233736898,
-      "prdPortMV": 0.16959235693872615
-    },
-    "0.70": {
-      "shield_price": 384.68253139415793,
-      "prdPortMV": 0.17172181666847836
-    },
-    "0.42": {
-      "shield_price": 389.452839414626,
-      "prdPortMV": 0.17385127639823056
-    },
-    "0.14": {
-      "shield_price": 394.22314743509406,
-      "prdPortMV": 0.17598073612798273
-    }
+      "19.73": {
+          "shield_price": 154.98223233451915,
+          "percentage_portfolio_market_value": 0.066503101870649,
+          "diy_price": 463.75,
+          "diy_percentage": 0.19899580118284507
+      },
+      "19.46": {
+          "shield_price": 157.30086415684661,
+          "percentage_portfolio_market_value": 0.06749803016635163,
+          "diy_price": 463.75,
+          "diy_percentage": 0.19899580118284507
+      },
+      "19.18": {
+          "shield_price": 159.61949597917405,
+          "percentage_portfolio_market_value": 0.06849295846205425,
+          "diy_price": 474.15,
+          "diy_percentage": 0.2034584563468377
+      },
+      "18.91": {
+          "shield_price": 161.9381278015015,
+          "percentage_portfolio_market_value": 0.06948788675775687,
+          "diy_price": 485.54999999999995,
+          "diy_percentage": 0.20835021296890657
+      },
+      "18.63": {
+          "shield_price": 164.37879287763568,
+          "percentage_portfolio_market_value": 0.07053517970060175,
+          "diy_price": 491.79999999999995,
+          "diy_percentage": 0.21103209708188295
+      },
+      "18.35": {
+          "shield_price": 166.6974246999631,
+          "percentage_portfolio_market_value": 0.07153010799630437,
+          "diy_price": 493.44999999999993,
+          "diy_percentage": 0.21174011448770869
+      },
+      "18.08": {
+          "shield_price": 169.13808977609727,
+          "percentage_portfolio_market_value": 0.07257740093914922,
+          "diy_price": 499.5,
+          "diy_percentage": 0.21433617830906979
+      },
+      "17.8": {
+          "shield_price": 171.57875485223144,
+          "percentage_portfolio_market_value": 0.0736246938819941,
+          "diy_price": 507.0,
+          "diy_percentage": 0.2175544392446414
+      },
+      "17.53": {
+          "shield_price": 174.0194199283656,
+          "percentage_portfolio_market_value": 0.07467198682483897,
+          "diy_price": 520.65,
+          "diy_percentage": 0.22341167414738175
+      },
+      "17.25": {
+          "shield_price": 176.58211825830648,
+          "percentage_portfolio_market_value": 0.07577164441482608,
+          "diy_price": 526.2,
+          "diy_percentage": 0.22579318723970476
+      },
+      "16.97": {
+          "shield_price": 179.02278333444062,
+          "percentage_portfolio_market_value": 0.07681893735767092,
+          "diy_price": 529.9,
+          "diy_percentage": 0.22738086263458673
+      },
+      "16.7": {
+          "shield_price": 181.5854816643815,
+          "percentage_portfolio_market_value": 0.07791859494765804,
+          "diy_price": 537.7,
+          "diy_percentage": 0.23072785400758122
+      },
+      "16.42": {
+          "shield_price": 184.14817999432236,
+          "percentage_portfolio_market_value": 0.07901825253764515,
+          "diy_price": 548.55,
+          "diy_percentage": 0.23538360482770818
+      },
+      "16.15": {
+          "shield_price": 186.83291157806994,
+          "percentage_portfolio_market_value": 0.08017027477477451,
+          "diy_price": 552.8,
+          "diy_percentage": 0.2372072860245321
+      },
+      "15.87": {
+          "shield_price": 189.3956099080108,
+          "percentage_portfolio_market_value": 0.08126993236476163,
+          "diy_price": 552.8,
+          "diy_percentage": 0.2372072860245321
+      },
+      "15.6": {
+          "shield_price": 192.0803414917584,
+          "percentage_portfolio_market_value": 0.08242195460189097,
+          "diy_price": 575.1,
+          "diy_percentage": 0.24677624853963168
+      },
+      "15.32": {
+          "shield_price": 194.76507307550597,
+          "percentage_portfolio_market_value": 0.08357397683902033,
+          "diy_price": 581.2,
+          "diy_percentage": 0.2493937674338966
+      },
+      "15.04": {
+          "shield_price": 197.44980465925352,
+          "percentage_portfolio_market_value": 0.08472599907614968,
+          "diy_price": 585.1500000000001,
+          "diy_percentage": 0.25108871819329764
+      },
+      "14.77": {
+          "shield_price": 200.25656949680783,
+          "percentage_portfolio_market_value": 0.08593038596042128,
+          "diy_price": 592.4000000000001,
+          "diy_percentage": 0.2541997037643502
+      },
+      "14.49": {
+          "shield_price": 202.94130108055538,
+          "percentage_portfolio_market_value": 0.08708240819755063,
+          "diy_price": 594.2,
+          "diy_percentage": 0.2549720863888874
+      },
+      "14.22": {
+          "shield_price": 205.74806591810966,
+          "percentage_portfolio_market_value": 0.0882867950818222,
+          "diy_price": 609.1,
+          "diy_percentage": 0.26136569811422306
+      },
+      "13.94": {
+          "shield_price": 208.55483075566397,
+          "percentage_portfolio_market_value": 0.08949118196609382,
+          "diy_price": 609.1,
+          "diy_percentage": 0.26136569811422306
+      },
+      "13.66": {
+          "shield_price": 211.48362884702493,
+          "percentage_portfolio_market_value": 0.09074793349750765,
+          "diy_price": 632.2,
+          "diy_percentage": 0.27127794179578363
+      },
+      "13.39": {
+          "shield_price": 214.29039368457921,
+          "percentage_portfolio_market_value": 0.09195232038177924,
+          "diy_price": 632.2,
+          "diy_percentage": 0.27127794179578363
+      },
+      "13.11": {
+          "shield_price": 217.21919177594023,
+          "percentage_portfolio_market_value": 0.0932090719131931,
+          "diy_price": 646.05,
+          "diy_percentage": 0.2772209969901392
+      },
+      "12.84": {
+          "shield_price": 220.14798986730122,
+          "percentage_portfolio_market_value": 0.09446582344460694,
+          "diy_price": 652.15,
+          "diy_percentage": 0.2798385158844041
+      },
+      "12.56": {
+          "shield_price": 223.07678795866224,
+          "percentage_portfolio_market_value": 0.09572257497602078,
+          "diy_price": 652.15,
+          "diy_percentage": 0.2798385158844041
+      },
+      "12.29": {
+          "shield_price": 226.12761930382993,
+          "percentage_portfolio_market_value": 0.09703169115457685,
+          "diy_price": 660.6999999999999,
+          "diy_percentage": 0.2835073333509558
+      },
+      "12.01": {
+          "shield_price": 229.17845064899763,
+          "percentage_portfolio_market_value": 0.09834080733313295,
+          "diy_price": 673.9,
+          "diy_percentage": 0.2891714725975618
+      },
+      "11.73": {
+          "shield_price": 232.10724874035859,
+          "percentage_portfolio_market_value": 0.09959755886454677,
+          "diy_price": 682.1999999999999,
+          "diy_percentage": 0.29273301469959445
+      },
+      "11.46": {
+          "shield_price": 235.280113339333,
+          "percentage_portfolio_market_value": 0.1009590396902451,
+          "diy_price": 692.6999999999999,
+          "diy_percentage": 0.2972385800093947
+      },
+      "11.18": {
+          "shield_price": 238.33094468450074,
+          "percentage_portfolio_market_value": 0.10226815586880118,
+          "diy_price": 701.1999999999999,
+          "diy_percentage": 0.3008859424030425
+      },
+      "10.91": {
+          "shield_price": 241.5038092834751,
+          "percentage_portfolio_market_value": 0.1036296366944995,
+          "diy_price": 713.2499999999999,
+          "diy_percentage": 0.3060566149728609
+      },
+      "10.63": {
+          "shield_price": 244.67667388244953,
+          "percentage_portfolio_market_value": 0.10499111752019784,
+          "diy_price": 722.3,
+          "diy_percentage": 0.3099399831684507
+      },
+      "10.35": {
+          "shield_price": 247.8495384814239,
+          "percentage_portfolio_market_value": 0.10635259834589615,
+          "diy_price": 733.85,
+          "diy_percentage": 0.314896105009231
+      },
+      "10.08": {
+          "shield_price": 251.02240308039833,
+          "percentage_portfolio_market_value": 0.10771407917159448,
+          "diy_price": 733.85,
+          "diy_percentage": 0.314896105009231
+      },
+      "9.8": {
+          "shield_price": 254.31730093317947,
+          "percentage_portfolio_market_value": 0.10912792464443506,
+          "diy_price": 750.1,
+          "diy_percentage": 0.32186900370296945
+      },
+      "9.53": {
+          "shield_price": 257.6121987859606,
+          "percentage_portfolio_market_value": 0.11054177011727563,
+          "diy_price": 750.1,
+          "diy_percentage": 0.32186900370296945
+      },
+      "9.25": {
+          "shield_price": 260.9070966387417,
+          "percentage_portfolio_market_value": 0.11195561559011619,
+          "diy_price": 768.0500000000001,
+          "diy_percentage": 0.32957137487543753
+      },
+      "8.98": {
+          "shield_price": 264.2019944915228,
+          "percentage_portfolio_market_value": 0.11336946106295676,
+          "diy_price": 768.0500000000001,
+          "diy_percentage": 0.32957137487543753
+      },
+      "8.7": {
+          "shield_price": 267.61892559811065,
+          "percentage_portfolio_market_value": 0.1148356711829396,
+          "diy_price": 790.3000000000001,
+          "diy_percentage": 0.3391188823176334
+      },
+      "8.42": {
+          "shield_price": 271.03585670469846,
+          "percentage_portfolio_market_value": 0.11630188130292239,
+          "diy_price": 796.4000000000001,
+          "diy_percentage": 0.34173640121189824
+      },
+      "8.15": {
+          "shield_price": 274.45278781128627,
+          "percentage_portfolio_market_value": 0.11776809142290519,
+          "diy_price": 802.4000000000001,
+          "diy_percentage": 0.3443110099603555
+      },
+      "7.87": {
+          "shield_price": 277.99175217168084,
+          "percentage_portfolio_market_value": 0.11928666619003028,
+          "diy_price": 812.5999999999999,
+          "diy_percentage": 0.3486878448327329
+      },
+      "7.6": {
+          "shield_price": 281.53071653207536,
+          "percentage_portfolio_market_value": 0.12080524095715532,
+          "diy_price": 820.8,
+          "diy_percentage": 0.3522064767889579
+      },
+      "7.32": {
+          "shield_price": 285.0696808924699,
+          "percentage_portfolio_market_value": 0.12232381572428037,
+          "diy_price": 830.3,
+          "diy_percentage": 0.35628294064068194
+      },
+      "7.04": {
+          "shield_price": 288.6086452528644,
+          "percentage_portfolio_market_value": 0.12384239049140543,
+          "diy_price": 835.8,
+          "diy_percentage": 0.35864299866010113
+      },
+      "6.77": {
+          "shield_price": 292.2696428670656,
+          "percentage_portfolio_market_value": 0.12541332990567272,
+          "diy_price": 855.45,
+          "diy_percentage": 0.3670748423112988
+      },
+      "6.49": {
+          "shield_price": 295.9306404812669,
+          "percentage_portfolio_market_value": 0.12698426931994003,
+          "diy_price": 864.15,
+          "diy_percentage": 0.37080802499656185
+      },
+      "6.22": {
+          "shield_price": 299.7136713492748,
+          "percentage_portfolio_market_value": 0.12860757338134957,
+          "diy_price": 874.65,
+          "diy_percentage": 0.37531359030636213
+      },
+      "5.94": {
+          "shield_price": 303.4967022172828,
+          "percentage_portfolio_market_value": 0.13023087744275913,
+          "diy_price": 880.65,
+          "diy_percentage": 0.3778881990548194
+      },
+      "5.67": {
+          "shield_price": 307.27973308529073,
+          "percentage_portfolio_market_value": 0.13185418150416867,
+          "diy_price": 885.1999999999999,
+          "diy_percentage": 0.37984061068906616
+      },
+      "5.39": {
+          "shield_price": 311.06276395329866,
+          "percentage_portfolio_market_value": 0.1334774855655782,
+          "diy_price": 904.4499999999999,
+          "diy_percentage": 0.3881008137570333
+      },
+      "5.11": {
+          "shield_price": 314.9678280751133,
+          "percentage_portfolio_market_value": 0.13515315427412997,
+          "diy_price": 904.4499999999999,
+          "diy_percentage": 0.3881008137570333
+      },
+      "4.84": {
+          "shield_price": 318.872892196928,
+          "percentage_portfolio_market_value": 0.13682882298268176,
+          "diy_price": 926.75,
+          "diy_percentage": 0.39766977627213296
+      },
+      "4.56": {
+          "shield_price": 322.8999895725494,
+          "percentage_portfolio_market_value": 0.1385568563383758,
+          "diy_price": 931.8000000000001,
+          "diy_percentage": 0.39983673863541785
+      },
+      "4.29": {
+          "shield_price": 326.9270869481707,
+          "percentage_portfolio_market_value": 0.14028488969406983,
+          "diy_price": 943.0500000000001,
+          "diy_percentage": 0.40466413003877527
+      },
+      "4.01": {
+          "shield_price": 330.9541843237921,
+          "percentage_portfolio_market_value": 0.14201292304976387,
+          "diy_price": 956.6,
+          "diy_percentage": 0.410478454795708
+      },
+      "3.73": {
+          "shield_price": 335.10331495322015,
+          "percentage_portfolio_market_value": 0.14379332105260015,
+          "diy_price": 962.6,
+          "diy_percentage": 0.4130530635441653
+      },
+      "3.46": {
+          "shield_price": 339.25244558264825,
+          "percentage_portfolio_market_value": 0.1455737190554364,
+          "diy_price": 967.6,
+          "diy_percentage": 0.41519857083454637
+      },
+      "3.18": {
+          "shield_price": 343.523609465883,
+          "percentage_portfolio_market_value": 0.1474064817054149,
+          "diy_price": 974.0,
+          "diy_percentage": 0.41794482016623413
+      },
+      "2.91": {
+          "shield_price": 347.67274009531104,
+          "percentage_portfolio_market_value": 0.14918687970825117,
+          "diy_price": 1001.65,
+          "diy_percentage": 0.4298094754820415
+      },
+      "2.63": {
+          "shield_price": 352.06593723235255,
+          "percentage_portfolio_market_value": 0.15107200700537196,
+          "diy_price": 1006.9999999999999,
+          "diy_percentage": 0.43210516828274925
+      },
+      "2.36": {
+          "shield_price": 356.45913436939406,
+          "percentage_portfolio_market_value": 0.15295713430249272,
+          "diy_price": 1016.7499999999999,
+          "diy_percentage": 0.4362889074989924
+      },
+      "2.08": {
+          "shield_price": 360.8523315064355,
+          "percentage_portfolio_market_value": 0.15484226159961345,
+          "diy_price": 1016.7499999999999,
+          "diy_percentage": 0.4362889074989924
+      },
+      "1.8": {
+          "shield_price": 365.36756189728374,
+          "percentage_portfolio_market_value": 0.15677975354387647,
+          "diy_price": 1049.0,
+          "diy_percentage": 0.4501274295219504
+      },
+      "1.53": {
+          "shield_price": 369.8827922881319,
+          "percentage_portfolio_market_value": 0.15871724548813945,
+          "diy_price": 1055.5,
+          "diy_percentage": 0.45291658899944576
+      },
+      "1.25": {
+          "shield_price": 374.3980226789801,
+          "percentage_portfolio_market_value": 0.16065473743240247,
+          "diy_price": 1055.5,
+          "diy_percentage": 0.45291658899944576
+      },
+      "0.98": {
+          "shield_price": 379.03528632363503,
+          "percentage_portfolio_market_value": 0.1626445940238077,
+          "diy_price": 1066.25,
+          "diy_percentage": 0.4575294296737651
+      },
+      "0.7": {
+          "shield_price": 383.7945832220966,
+          "percentage_portfolio_market_value": 0.1646868152623552,
+          "diy_price": 1087.6999999999998,
+          "diy_percentage": 0.4667336559494999
+      },
+      "0.42": {
+          "shield_price": 388.55388012055823,
+          "percentage_portfolio_market_value": 0.1667290365009027,
+          "diy_price": 1098.9,
+          "diy_percentage": 0.47153959227995357
+      },
+      "0.15": {
+          "shield_price": 393.3131770190198,
+          "percentage_portfolio_market_value": 0.16877125773945015,
+          "diy_price": 1098.9,
+          "diy_percentage": 0.47153959227995357
+      }
   }
 }
