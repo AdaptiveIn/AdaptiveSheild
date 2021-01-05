@@ -9,7 +9,14 @@ import TableCell from "@material-ui/core/TableCell";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
+import {Auth} from "aws-amplify";
 
+
+var arr = []
+export function sendList(){
+  var arr1 = arr
+  return arr1
+}
 export default function Accountsummary() {
   const history = useHistory();
   const handleClick = () => history.push("/ShieldSetup");
@@ -92,10 +99,25 @@ export default function Accountsummary() {
   const [rows, setRows] = React.useState([]);
   const [sum1, setSum] = React.useState(0);
   const [prevTotal1, setPrevtotal] = React.useState(0);
+  const [user, setUser] = React.useState("");
   var lyst = [];
   var prevTotal = 0;
   var sum = 0;
-
+  getUserData()
+  function loadUser(){
+    return Auth.currentAuthenticatedUser({bypassCache: true});
+  }
+  async function getUserData(){
+    try{
+      const logged = await loadUser();
+      console.log(logged.username)
+      setUser(logged.username)
+    }catch(e){
+      alert(e)
+    }
+  }
+  console.log(user)
+  
   async function getData() {
     var requestOptions = {
       method: "POST",
@@ -127,6 +149,7 @@ export default function Accountsummary() {
     }
     setSum(sum);
     setPrevtotal(prevTotal);
+    arr = lyst
 
     for (i = 0; i < lyst.length; i++) {
       rows2.push(
@@ -169,7 +192,7 @@ export default function Accountsummary() {
           <tr>
             <td align="Right">Account:</td>
             <td align="left">
-              <text style={Datast}>Adaptive LLP</text>
+              <text style={Datast}>{user}</text>
             </td>
           </tr>
           <tr>
@@ -214,11 +237,11 @@ export default function Accountsummary() {
               <TableHead>
                 <TableRow>
                   <TableCell align="left">Symbol</TableCell>
-                  <TableCell align="left">Quantity</TableCell>
-                  <TableCell align="left">Last</TableCell>
-                  <TableCell align="left">Previous Close</TableCell>
-                  <TableCell align="left">Change%</TableCell>
-                  <TableCell align="left">Market Value</TableCell>
+                  <TableCell align="right">Quantity</TableCell>
+                  <TableCell align="right">Last Price</TableCell>
+                  <TableCell align="right">Previous Close</TableCell>
+                  <TableCell align="right">Change (%)</TableCell>
+                  <TableCell align="right">Market Value</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -227,15 +250,15 @@ export default function Accountsummary() {
                     <TableCell align="left" component="th" scope="row">
                       {row.Symbol}
                     </TableCell>
-                    <TableCell align="left">{row.Quantity}</TableCell>
-                    <TableCell align="left">
+                    <TableCell align="right">{row.Quantity}</TableCell>
+                    <TableCell align="right">
                       ${row.Last.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                     </TableCell>
-                    <TableCell align="left">
+                    <TableCell align="right">
                       ${row.Previous.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                     </TableCell>
-                    <TableCell align="left">{row.Change}%</TableCell>
-                    <TableCell align="left">
+                    <TableCell align="right">{row.Change}%</TableCell>
+                    <TableCell align="right">
                       ${row.Value.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                     </TableCell>
                   </TableRow>

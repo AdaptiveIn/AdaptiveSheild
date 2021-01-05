@@ -67,8 +67,8 @@ export default function ConfirmationScreen() {
       <div style={TCcontent}>
         <text>
         You are agreeing to purchase protection on the portfolio above:<br></br><br></br>
-        To a level of no less than:   {price[2]}%<br></br>
-        And for a loss no less than:  {price[3]}%<br></br>
+        Portfolio value protected:   {price[3]}%<br></br>
+        And for a loss no less than:  {price[2]}%<br></br>
         For a period of:              {price[1]}<br></br>
         For a total cost of:          ${price[0]}<br></br><br></br>
 

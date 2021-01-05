@@ -2,14 +2,17 @@ import React from "react";
 import { Button, FormControl, TextField } from "@material-ui/core";
 import { DeleteStock } from "./DeleteStock";
 import { useHistory } from "react-router-dom";
+import {sendList} from './Accountsummary'
 
 const dict = [];
 export default function DeleteScreen() {
+  var isThere = false
   const history = useHistory();
   const form1 = {
     width: 500,
     margin: "Auto",
   };
+  const data = sendList()
   const headings2 = {
     fontSize: 40,
     marginTop: 50,
@@ -29,8 +32,18 @@ export default function DeleteScreen() {
       ticker
     );
     DeleteStock(dict);
+    for(var i = 0; i < data.length; i++){
+      if(data[i][0] === ticker){
+        isThere = true
+      }
+    }
+    if(isThere === true){
+      alert(`${ticker} has been removed form portfolio`)
+    }
+    else{
+      alert(`${ticker} not present in portfolio, please make sure that you have entered the ticker name correctly.`)
+    }
     console.log(dict);
-    alert("Stock has been deleted");
     history.push("/");
   }
   return (

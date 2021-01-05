@@ -29,7 +29,7 @@ export default function ShieldSetup() {
   const history = useHistory();
   const handleClickConfirm = () => history.push("/ConfirmationScreen");
   const handleClickBack = () => history.push("/");
-  const [selected, setName] = React.useState("Day");
+  const [selected, setName] = React.useState("Month");
   const [quote, setPrice] = React.useState(0);
   const [diy, setDiy] = React.useState(0);
   const [prcPort, setPrc] = React.useState(0);
@@ -114,22 +114,27 @@ export default function ShieldSetup() {
       // console.log("marks2:", marks2);
       // // console.log(tp);
       // console.log("tp:", tp[percent]);
-      if (percent === "0.00") {
-        handleChange2("NA");
-        handleChange3("0.0");
-        handleChange4("0.0");
-        shieldP = "NA";
+      if (percent === "0.00" || percent === 0)  {
+        percent = (100 - marks2[marks2.length-1]["value"]).toFixed(2);
+        console.log(percent)
+        handleChange2(tp[percent]["shield_price"].toFixed(2));
+        handleChange3(
+          tp[percent]["percentage_portfolio_market_value"].toFixed(3)
+        );
+        handleChange4(tp[percent]["diy_price"].toFixed(2));
+        setDiyPer(tp[percent]["diy_percentage"].toFixed(3));
+        shieldP = tp[percent]["shield_price"].toFixed(2);
+        shieldPercentage = percent;
       } else if (percent === "3.00" || percent === 3) {
-        handleChange2(0);
-        handleChange4(0);
-        shieldP = 0;
+        handleChange2(0)
+        handleChange3(0)
       } else {
         handleChange2(tp[percent]["shield_price"].toFixed(2));
         handleChange3(
-          tp[percent]["percentage_portfolio_market_value"].toFixed(5)
+          tp[percent]["percentage_portfolio_market_value"].toFixed(3)
         );
         handleChange4(tp[percent]["diy_price"].toFixed(2));
-        setDiyPer(tp[percent]["diy_percentage"].toFixed(3))
+        setDiyPer(tp[percent]["diy_percentage"].toFixed(3));
         shieldP = tp[percent]["shield_price"].toFixed(2);
         shieldPercentage = percent;
       }
@@ -197,18 +202,24 @@ export default function ShieldSetup() {
     width: 300,
   };
   const cost = {
+    position: "relative",
+    margin: "auto",
     paddingTop: 90,
     textAlign: "center",
     fontFamily: "Helvetica",
     fontSize: 40,
     fontWeight: "bold",
     color: "#16697a",
+    width: 800,
   };
   const DIYcost = {
+    width: 800,
+    position: "relative",
+    margin: "auto",
     paddingTop: 20,
     textAlign: "center",
     fontFamily: "Helvetica",
-    fontSize: 30,
+    fontSize: 40,
     fontWeight: "bold",
     color: "#16697a",
   };
@@ -291,7 +302,7 @@ export default function ShieldSetup() {
                   orientation="vertical"
                   min={80}
                   getAriaValueText={valuetext}
-                  defaultValue={97}
+                  defaultValue={100}
                   aria-labelledby="vertical-slider"
                   step={null}
                   marks={marks2}
@@ -303,12 +314,20 @@ export default function ShieldSetup() {
             </div>
           </div>
           <div style={cost}>
-            <text>
-              COST: ${quote}({prcPort}%)
-            </text>
-          </div>
-          <div style={DIYcost}>
-            <text>Do It Yourself Cost: ${diy}({diyPer}%)</text>
+            <table position="relative" margin="auto" width="800">
+              <tr>
+                <td align="right">COST:</td>
+                <td align="left">
+                  ${quote} ({prcPort}%)
+                </td>
+              </tr>
+              <tr>
+                <td align="right">DIY COST:</td>
+                <td align="left">
+                  ${diy} ({diyPer}%)
+                </td>
+              </tr>
+            </table>
           </div>
           <div style={confirmButton}>
             <Button

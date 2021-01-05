@@ -2,6 +2,7 @@ import React from "react";
 import { Button, FormControl, TextField } from "@material-ui/core";
 import { UpdateStockList } from "./UpdateStockList";
 import { useHistory } from "react-router-dom";
+import {sendList} from './Accountsummary'
 
 const dict = [];
 export default function AddStocks() {
@@ -17,8 +18,10 @@ export default function AddStocks() {
     color: "#51adcf",
     fontFamily: "Helvetica",
   };
+  var isThere = false
   const [ticker, setName] = React.useState("Controlled");
   const [quant, setQuant] = React.useState("Controlled");
+  const data = sendList()
   const handleChange = (event) => {
     setName(event.target.value);
   };
@@ -32,8 +35,19 @@ export default function AddStocks() {
       quant,
     );
     UpdateStockList(dict);
-    console.log(dict);
-    alert("Stock has been added");
+    console.log("data:",data[0][0])
+    for(var i = 0; i < data.length; i++){
+      if(data[i][0] === ticker){
+        isThere = true
+      }
+    }
+    if(isThere === true){
+      alert(`${ticker} is already there, use update tab to update the quantity`)
+    }
+    else{
+      alert(`${quant} stocks of ${ticker} added to your portfolio`)
+    }
+    console.log("dict:",dict);
     history.push("/");
   }
   return (
