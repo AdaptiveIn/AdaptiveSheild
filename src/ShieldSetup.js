@@ -114,7 +114,7 @@ export default function ShieldSetup() {
       // console.log("marks2:", marks2);
       // // console.log(tp);
       // console.log("tp:", tp[percent]);
-      if (percent === "0.00" || percent === 0)  {
+      if (percent === "0.00" || percent === 0 || percent === 0.15)  {
         percent = (100 - marks2[marks2.length-1]["value"]).toFixed(2);
         console.log(percent)
         handleChange2(tp[percent]["shield_price"].toFixed(2));
@@ -302,7 +302,7 @@ export default function ShieldSetup() {
                   orientation="vertical"
                   min={80}
                   getAriaValueText={valuetext}
-                  defaultValue={100}
+                  defaultValue={99.85}
                   aria-labelledby="vertical-slider"
                   step={null}
                   marks={marks2}
