@@ -2,8 +2,10 @@ import React from "react";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import AcccessibleTable from "./table";
+import {sendPrice} from "./ShieldSetup"
 
 export default function ConfirmationScreen() {
+  const price = sendPrice()
   const history = useHistory();
   const handleClickConfirm = () => history.push("/Success");
   const handleClickBack = () => history.push("/ShieldSetup");
@@ -23,11 +25,15 @@ export default function ConfirmationScreen() {
     color: "#ffa62b",
   };
   const TCcontent = {
+    position: "relative",
+    margin: "auto",
     textAlign: "justify",
     paddingTop: 20,
     fontFamily: "Helvetica",
     paddingLeft: 20,
     paddingRight: 20,
+    maxWidth:600,
+    fontSize: 20
   };
   const confirmButton = {
     paddingTop: 70,
@@ -41,13 +47,18 @@ export default function ConfirmationScreen() {
     textAlign: "center",
     width: 300,
   };
+  const table = {
+    position: "relative",
+    margin: "auto",
+    maxWidth: 700
+  }
 
   return (
     <React.Fragment>
       <div style={headings}>
         <text>SHIELD CONFIRMATION SCREEN</text>
       </div>
-      <div>
+      <div style = {table}>
         <AcccessibleTable />
       </div>
       <div style={TC}>
@@ -55,9 +66,18 @@ export default function ConfirmationScreen() {
       </div>
       <div style={TCcontent}>
         <text>
-          You are agreeing to purchase protection on the portfolio above. To a
-          level of noless than aforementioned percentage and for a loss of no more than aforementioned percent,
-          for the said period and said total cost.
+        You are agreeing to purchase protection on the portfolio above:<br></br><br></br>
+        Portfolio value protected:   {price[3]}%<br></br>
+        And for a loss no less than:  {price[2]}%<br></br>
+        For a period of:              {price[1]}<br></br>
+        For a total cost of:          ${price[0]}<br></br><br></br>
+
+        Shield Protection Period expires on the selected date.
+        Shield Protection Level  specifies the level of selected protection.
+        Shield Protection Payout is settled at closing on the expiration date of the Shield Protection Period.
+        Calculation of Protection Payouts: The Shield Protection Payout equals the difference between (1) the aggregate market value of the holdings (see table above), inclusive of all dividends and other distributions during the Shield Protection Period, and (2) the Shield Protection Level. For example, if a $100,000 Portfolio experiences a crash and, at the expiration of the Shield Protection Period,is down by the 1987 Black Monday magnitude (22.6%)—and the Shield Protection Level is set at 10%—you will be paid the difference of 12.6% equal to $12,600.
+        Contact Adaptive for Shield Redemption, prior to the end of the Shield Protection Period.
+
         </text>
       </div>
       <div style={confirmButton}>

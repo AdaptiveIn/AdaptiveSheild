@@ -2,6 +2,7 @@ import React from "react";
 import { Button, FormControl, TextField } from "@material-ui/core";
 import { UpdateStocks } from "./UpdateStocks";
 import { useHistory } from "react-router-dom";
+import {sendList} from './Accountsummary'
 
 const dict = [];
 export default function UpdateScreen() {
@@ -19,6 +20,8 @@ export default function UpdateScreen() {
   };
   const [ticker, setName] = React.useState("Controlled");
   const [quant, setQuant] = React.useState("Controlled");
+  const data = sendList()
+  var isThere = false
   const handleChange = (event) => {
     setName(event.target.value);
   };
@@ -32,8 +35,18 @@ export default function UpdateScreen() {
       quant,
     );
     UpdateStocks(dict);
+    for(var i = 0; i < data.length; i++){
+      if(data[i][0] === ticker){
+        isThere = true
+      }
+    }
+    if(isThere === true){
+      alert(`Number of stocks for ${ticker} has been updated to ${quant}`)
+    }
+    else{
+      alert(`Stock ${ticker} does not have a position to be updated.`)
+    }
     console.log(dict);
-    alert("Stock has been added");
     history.push("/");
   }
   return (

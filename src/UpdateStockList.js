@@ -20,6 +20,9 @@ export function UpdateStockList(StockData) {
     requestOptions
   )
     .then((response) => response.text())
-    .then((result) => console.log(result))
+    .then((result) => {
+      console.log(result['message']);
+      return result['message'];
+    })
     .catch((error) => console.log("error", error));
 }
